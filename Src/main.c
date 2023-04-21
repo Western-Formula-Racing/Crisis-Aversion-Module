@@ -130,7 +130,6 @@ int main(void)
       setMux(i);
       HAL_Delay(1000);
 
-      HAL_UART_Transmit(&huart1, )
       printf("Channel %d raw: %d", i, aADCxConvertedData[i - 1]);
     }
 
