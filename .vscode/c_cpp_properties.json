@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "name": "STM32",
+      "includePath": [
+        "Drivers/BSP/STM32U5xx_Nucleo",
+        "Drivers/CMSIS/Device/ST/STM32U5xx/Include",
+        "Drivers/CMSIS/Include",
+        "Drivers/STM32U5xx_HAL_Driver/Inc",
+        "Drivers/STM32U5xx_HAL_Driver/Inc/Legacy",
+        "Inc"
+      ],
+      "defines": [
+        "DEBUG",
+        "STM32U575xx",
+        "USE_HAL_DRIVER"
+      ],
+      "compilerPath": "C:\\USERS\\SORAN\\APPDATA\\ROAMING\\CODE\\USER\\GLOBALSTORAGE\\BMD.STM32-FOR-VSCODE\\@XPACK-DEV-TOOLS\\ARM-NONE-EABI-GCC\\12.2.1-1.2.1\\.CONTENT\\BIN\\ARM-NONE-EABI-GCC.EXE"
+    }
+  ],
+  "version": 4
+}
