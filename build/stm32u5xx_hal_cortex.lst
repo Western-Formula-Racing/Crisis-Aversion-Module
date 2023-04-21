@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 1
 
 
    1              		.cpu cortex-m33
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
   26:Drivers/CMSIS/Include/core_cm33.h ****   #pragma system_include         /* treat file as system include file for MISRA check */
   27:Drivers/CMSIS/Include/core_cm33.h **** #elif defined (__clang__)
   28:Drivers/CMSIS/Include/core_cm33.h ****   #pragma clang system_header   /* treat file as system include file */
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 2
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 2
 
 
   29:Drivers/CMSIS/Include/core_cm33.h **** #endif
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
   83:Drivers/CMSIS/Include/core_cm33.h ****     #endif
   84:Drivers/CMSIS/Include/core_cm33.h ****   #else
   85:Drivers/CMSIS/Include/core_cm33.h ****     #define __FPU_USED         0U
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 3
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 3
 
 
   86:Drivers/CMSIS/Include/core_cm33.h ****   #endif
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  140:Drivers/CMSIS/Include/core_cm33.h ****     #endif
  141:Drivers/CMSIS/Include/core_cm33.h ****   #else
  142:Drivers/CMSIS/Include/core_cm33.h ****     #define __DSP_USED         0U
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 4
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 4
 
 
  143:Drivers/CMSIS/Include/core_cm33.h ****   #endif
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  197:Drivers/CMSIS/Include/core_cm33.h ****       #error "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)
  198:Drivers/CMSIS/Include/core_cm33.h ****       #define __FPU_USED       0U
  199:Drivers/CMSIS/Include/core_cm33.h ****     #endif
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 5
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 5
 
 
  200:Drivers/CMSIS/Include/core_cm33.h ****   #else
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  254:Drivers/CMSIS/Include/core_cm33.h ****   #endif
  255:Drivers/CMSIS/Include/core_cm33.h **** 
  256:Drivers/CMSIS/Include/core_cm33.h ****   #ifndef __Vendor_SysTickConfig
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 6
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 6
 
 
  257:Drivers/CMSIS/Include/core_cm33.h ****     #define __Vendor_SysTickConfig    0U
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  311:Drivers/CMSIS/Include/core_cm33.h **** /**
  312:Drivers/CMSIS/Include/core_cm33.h ****   \brief  Union type to access the Application Program Status Register (APSR).
  313:Drivers/CMSIS/Include/core_cm33.h ****  */
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 7
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 7
 
 
  314:Drivers/CMSIS/Include/core_cm33.h **** typedef union
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  368:Drivers/CMSIS/Include/core_cm33.h **** /**
  369:Drivers/CMSIS/Include/core_cm33.h ****   \brief  Union type to access the Special-Purpose Program Status Registers (xPSR).
  370:Drivers/CMSIS/Include/core_cm33.h ****  */
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 8
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 8
 
 
  371:Drivers/CMSIS/Include/core_cm33.h **** typedef union
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  425:Drivers/CMSIS/Include/core_cm33.h ****   {
  426:Drivers/CMSIS/Include/core_cm33.h ****     uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
  427:Drivers/CMSIS/Include/core_cm33.h ****     uint32_t SPSEL:1;                    /*!< bit:      1  Stack-pointer select */
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 9
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 9
 
 
  428:Drivers/CMSIS/Include/core_cm33.h ****     uint32_t FPCA:1;                     /*!< bit:      2  Floating-point context active */
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  482:Drivers/CMSIS/Include/core_cm33.h **** #define NVIC_STIR_INTID_Msk                (0x1FFUL /*<< NVIC_STIR_INTID_Pos*/)        /*!< STIR: I
  483:Drivers/CMSIS/Include/core_cm33.h **** 
  484:Drivers/CMSIS/Include/core_cm33.h **** /*@} end of group CMSIS_NVIC */
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 10
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 10
 
 
  485:Drivers/CMSIS/Include/core_cm33.h **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  539:Drivers/CMSIS/Include/core_cm33.h ****   __OM  uint32_t DCCIMVAC;               /*!< Offset: 0x270 ( /W)  D-Cache Clean and Invalidate by 
  540:Drivers/CMSIS/Include/core_cm33.h ****   __OM  uint32_t DCCISW;                 /*!< Offset: 0x274 ( /W)  D-Cache Clean and Invalidate by 
  541:Drivers/CMSIS/Include/core_cm33.h **** } SCB_Type;
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 11
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 11
 
 
  542:Drivers/CMSIS/Include/core_cm33.h **** 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  596:Drivers/CMSIS/Include/core_cm33.h **** #define SCB_ICSR_VECTACTIVE_Pos             0U                                            /*!< SCB 
  597:Drivers/CMSIS/Include/core_cm33.h **** #define SCB_ICSR_VECTACTIVE_Msk            (0x1FFUL /*<< SCB_ICSR_VECTACTIVE_Pos*/)       /*!< SCB 
  598:Drivers/CMSIS/Include/core_cm33.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 12
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 12
 
 
  599:Drivers/CMSIS/Include/core_cm33.h **** /* SCB Vector Table Offset Register Definitions */
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  653:Drivers/CMSIS/Include/core_cm33.h **** 
  654:Drivers/CMSIS/Include/core_cm33.h **** #define SCB_CCR_STKOFHFNMIGN_Pos           10U                                            /*!< SCB 
  655:Drivers/CMSIS/Include/core_cm33.h **** #define SCB_CCR_STKOFHFNMIGN_Msk           (1UL << SCB_CCR_STKOFHFNMIGN_Pos)              /*!< SCB 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 13
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 13
 
 
  656:Drivers/CMSIS/Include/core_cm33.h **** 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  710:Drivers/CMSIS/Include/core_cm33.h **** #define SCB_SHCSR_SVCALLACT_Msk            (1UL << SCB_SHCSR_SVCALLACT_Pos)               /*!< SCB 
  711:Drivers/CMSIS/Include/core_cm33.h **** 
  712:Drivers/CMSIS/Include/core_cm33.h **** #define SCB_SHCSR_NMIACT_Pos                5U                                            /*!< SCB 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 14
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 14
 
 
  713:Drivers/CMSIS/Include/core_cm33.h **** #define SCB_SHCSR_NMIACT_Msk               (1UL << SCB_SHCSR_NMIACT_Pos)                  /*!< SCB 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  767:Drivers/CMSIS/Include/core_cm33.h **** #define SCB_CFSR_STKERR_Msk               (1UL << SCB_CFSR_STKERR_Pos)                    /*!< SCB 
  768:Drivers/CMSIS/Include/core_cm33.h **** 
  769:Drivers/CMSIS/Include/core_cm33.h **** #define SCB_CFSR_UNSTKERR_Pos             (SCB_CFSR_BUSFAULTSR_Pos + 3U)                  /*!< SCB 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 15
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 15
 
 
  770:Drivers/CMSIS/Include/core_cm33.h **** #define SCB_CFSR_UNSTKERR_Msk             (1UL << SCB_CFSR_UNSTKERR_Pos)                  /*!< SCB 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  824:Drivers/CMSIS/Include/core_cm33.h **** #define SCB_DFSR_BKPT_Msk                  (1UL << SCB_DFSR_BKPT_Pos)                     /*!< SCB 
  825:Drivers/CMSIS/Include/core_cm33.h **** 
  826:Drivers/CMSIS/Include/core_cm33.h **** #define SCB_DFSR_HALTED_Pos                 0U                                            /*!< SCB 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 16
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 16
 
 
  827:Drivers/CMSIS/Include/core_cm33.h **** #define SCB_DFSR_HALTED_Msk                (1UL /*<< SCB_DFSR_HALTED_Pos*/)               /*!< SCB 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  881:Drivers/CMSIS/Include/core_cm33.h **** #define SCB_CCSIDR_LINESIZE_Pos             0U                                            /*!< SCB 
  882:Drivers/CMSIS/Include/core_cm33.h **** #define SCB_CCSIDR_LINESIZE_Msk            (7UL /*<< SCB_CCSIDR_LINESIZE_Pos*/)           /*!< SCB 
  883:Drivers/CMSIS/Include/core_cm33.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 17
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 17
 
 
  884:Drivers/CMSIS/Include/core_cm33.h **** /* SCB Cache Size Selection Register Definitions */
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  938:Drivers/CMSIS/Include/core_cm33.h **** #define SCnSCB_ICTR_INTLINESNUM_Pos         0U                                         /*!< ICTR: I
  939:Drivers/CMSIS/Include/core_cm33.h **** #define SCnSCB_ICTR_INTLINESNUM_Msk        (0xFUL /*<< SCnSCB_ICTR_INTLINESNUM_Pos*/)  /*!< ICTR: I
  940:Drivers/CMSIS/Include/core_cm33.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 18
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 18
 
 
  941:Drivers/CMSIS/Include/core_cm33.h **** /*@} end of group CMSIS_SCnotSCB */
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  995:Drivers/CMSIS/Include/core_cm33.h **** 
  996:Drivers/CMSIS/Include/core_cm33.h **** /**
  997:Drivers/CMSIS/Include/core_cm33.h ****   \ingroup  CMSIS_core_register
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 19
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 19
 
 
  998:Drivers/CMSIS/Include/core_cm33.h ****   \defgroup CMSIS_ITM     Instrumentation Trace Macrocell (ITM)
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1052:Drivers/CMSIS/Include/core_cm33.h **** /* ITM Trace Control Register Definitions */
 1053:Drivers/CMSIS/Include/core_cm33.h **** #define ITM_TCR_BUSY_Pos                   23U                                            /*!< ITM 
 1054:Drivers/CMSIS/Include/core_cm33.h **** #define ITM_TCR_BUSY_Msk                   (1UL << ITM_TCR_BUSY_Pos)                      /*!< ITM 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 20
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 20
 
 
 1055:Drivers/CMSIS/Include/core_cm33.h **** 
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1109:Drivers/CMSIS/Include/core_cm33.h ****   __IOM uint32_t CYCCNT;                 /*!< Offset: 0x004 (R/W)  Cycle Count Register */
 1110:Drivers/CMSIS/Include/core_cm33.h ****   __IOM uint32_t CPICNT;                 /*!< Offset: 0x008 (R/W)  CPI Count Register */
 1111:Drivers/CMSIS/Include/core_cm33.h ****   __IOM uint32_t EXCCNT;                 /*!< Offset: 0x00C (R/W)  Exception Overhead Count Registe
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 21
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 21
 
 
 1112:Drivers/CMSIS/Include/core_cm33.h ****   __IOM uint32_t SLEEPCNT;               /*!< Offset: 0x010 (R/W)  Sleep Count Register */
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1166:Drivers/CMSIS/Include/core_cm33.h ****   __IOM uint32_t FUNCTION12;             /*!< Offset: 0x0E8 (R/W)  Function Register 12 */
 1167:Drivers/CMSIS/Include/core_cm33.h ****         uint32_t RESERVED26[1U];
 1168:Drivers/CMSIS/Include/core_cm33.h ****   __IOM uint32_t COMP13;                 /*!< Offset: 0x0F0 (R/W)  Comparator Register 13 */
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 22
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 22
 
 
 1169:Drivers/CMSIS/Include/core_cm33.h ****         uint32_t RESERVED27[1U];
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1223:Drivers/CMSIS/Include/core_cm33.h **** #define DWT_CTRL_EXCTRCENA_Msk             (0x1UL << DWT_CTRL_EXCTRCENA_Pos)           /*!< DWT CTR
 1224:Drivers/CMSIS/Include/core_cm33.h **** 
 1225:Drivers/CMSIS/Include/core_cm33.h **** #define DWT_CTRL_PCSAMPLENA_Pos            12U                                         /*!< DWT CTR
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 23
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 23
 
 
 1226:Drivers/CMSIS/Include/core_cm33.h **** #define DWT_CTRL_PCSAMPLENA_Msk            (0x1UL << DWT_CTRL_PCSAMPLENA_Pos)          /*!< DWT CTR
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1280:Drivers/CMSIS/Include/core_cm33.h **** 
 1281:Drivers/CMSIS/Include/core_cm33.h **** 
 1282:Drivers/CMSIS/Include/core_cm33.h **** /**
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 24
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 24
 
 
 1283:Drivers/CMSIS/Include/core_cm33.h ****   \ingroup  CMSIS_core_register
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1337:Drivers/CMSIS/Include/core_cm33.h **** 
 1338:Drivers/CMSIS/Include/core_cm33.h **** #define TPI_FFSR_FlInProg_Pos               0U                                         /*!< TPI FFS
 1339:Drivers/CMSIS/Include/core_cm33.h **** #define TPI_FFSR_FlInProg_Msk              (0x1UL /*<< TPI_FFSR_FlInProg_Pos*/)        /*!< TPI FFS
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 25
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 25
 
 
 1340:Drivers/CMSIS/Include/core_cm33.h **** 
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1394:Drivers/CMSIS/Include/core_cm33.h **** #define TPI_ITFTTD1_ATB_IF2_bytecount_Pos  27U                                         /*!< TPI ITF
 1395:Drivers/CMSIS/Include/core_cm33.h **** #define TPI_ITFTTD1_ATB_IF2_bytecount_Msk  (0x3UL << TPI_ITFTTD1_ATB_IF2_bytecount_Pos) /*!< TPI IT
 1396:Drivers/CMSIS/Include/core_cm33.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 26
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 26
 
 
 1397:Drivers/CMSIS/Include/core_cm33.h **** #define TPI_ITFTTD1_ATB_IF1_ATVALID_Pos    26U                                         /*!< TPI ITF
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1451:Drivers/CMSIS/Include/core_cm33.h **** 
 1452:Drivers/CMSIS/Include/core_cm33.h **** /*@}*/ /* end of group CMSIS_TPI */
 1453:Drivers/CMSIS/Include/core_cm33.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 27
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 27
 
 
 1454:Drivers/CMSIS/Include/core_cm33.h **** 
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1508:Drivers/CMSIS/Include/core_cm33.h **** #define MPU_CTRL_ENABLE_Pos                 0U                                            /*!< MPU 
 1509:Drivers/CMSIS/Include/core_cm33.h **** #define MPU_CTRL_ENABLE_Msk                (1UL /*<< MPU_CTRL_ENABLE_Pos*/)               /*!< MPU 
 1510:Drivers/CMSIS/Include/core_cm33.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 28
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 28
 
 
 1511:Drivers/CMSIS/Include/core_cm33.h **** /* MPU Region Number Register Definitions */
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1565:Drivers/CMSIS/Include/core_cm33.h **** #endif
 1566:Drivers/CMSIS/Include/core_cm33.h **** 
 1567:Drivers/CMSIS/Include/core_cm33.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 29
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 29
 
 
 1568:Drivers/CMSIS/Include/core_cm33.h **** #if defined (__ARM_FEATURE_CMSE) && (__ARM_FEATURE_CMSE == 3U)
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1622:Drivers/CMSIS/Include/core_cm33.h **** #define SAU_RLAR_ENABLE_Msk                (1UL /*<< SAU_RLAR_ENABLE_Pos*/)               /*!< SAU 
 1623:Drivers/CMSIS/Include/core_cm33.h **** 
 1624:Drivers/CMSIS/Include/core_cm33.h **** #endif /* defined (__SAUREGION_PRESENT) && (__SAUREGION_PRESENT == 1U) */
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 30
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 30
 
 
 1625:Drivers/CMSIS/Include/core_cm33.h **** 
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1679:Drivers/CMSIS/Include/core_cm33.h **** #define FPU_FPCCR_LSPEN_Pos                30U                                            /*!< FPCC
 1680:Drivers/CMSIS/Include/core_cm33.h **** #define FPU_FPCCR_LSPEN_Msk                (1UL << FPU_FPCCR_LSPEN_Pos)                   /*!< FPCC
 1681:Drivers/CMSIS/Include/core_cm33.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 31
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 31
 
 
 1682:Drivers/CMSIS/Include/core_cm33.h **** #define FPU_FPCCR_LSPENS_Pos               29U                                            /*!< FPCC
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1736:Drivers/CMSIS/Include/core_cm33.h **** #define FPU_FPDSCR_DN_Msk                  (1UL << FPU_FPDSCR_DN_Pos)                     /*!< FPDS
 1737:Drivers/CMSIS/Include/core_cm33.h **** 
 1738:Drivers/CMSIS/Include/core_cm33.h **** #define FPU_FPDSCR_FZ_Pos                  24U                                            /*!< FPDS
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 32
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 32
 
 
 1739:Drivers/CMSIS/Include/core_cm33.h **** #define FPU_FPDSCR_FZ_Msk                  (1UL << FPU_FPDSCR_FZ_Pos)                     /*!< FPDS
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1793:Drivers/CMSIS/Include/core_cm33.h ****   \brief  Structure type to access the Core Debug Register (CoreDebug).
 1794:Drivers/CMSIS/Include/core_cm33.h ****  */
 1795:Drivers/CMSIS/Include/core_cm33.h **** typedef struct
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 33
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 33
 
 
 1796:Drivers/CMSIS/Include/core_cm33.h **** {
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1850:Drivers/CMSIS/Include/core_cm33.h **** #define CoreDebug_DCRSR_REGSEL_Pos          0U                                            /*!< Core
 1851:Drivers/CMSIS/Include/core_cm33.h **** #define CoreDebug_DCRSR_REGSEL_Msk         (0x1FUL /*<< CoreDebug_DCRSR_REGSEL_Pos*/)     /*!< Core
 1852:Drivers/CMSIS/Include/core_cm33.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 34
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 34
 
 
 1853:Drivers/CMSIS/Include/core_cm33.h **** /* Debug Exception and Monitor Control Register Definitions */
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1907:Drivers/CMSIS/Include/core_cm33.h **** #define CoreDebug_DSCSR_CDS_Pos            16U                                            /*!< Core
 1908:Drivers/CMSIS/Include/core_cm33.h **** #define CoreDebug_DSCSR_CDS_Msk            (1UL << CoreDebug_DSCSR_CDS_Pos)               /*!< Core
 1909:Drivers/CMSIS/Include/core_cm33.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 35
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 35
 
 
 1910:Drivers/CMSIS/Include/core_cm33.h **** #define CoreDebug_DSCSR_SBRSEL_Pos          1U                                            /*!< Core
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 1964:Drivers/CMSIS/Include/core_cm33.h ****   #define SysTick             ((SysTick_Type   *)     SysTick_BASE     ) /*!< SysTick configuration
 1965:Drivers/CMSIS/Include/core_cm33.h ****   #define NVIC                ((NVIC_Type      *)     NVIC_BASE        ) /*!< NVIC configuration st
 1966:Drivers/CMSIS/Include/core_cm33.h ****   #define ITM                 ((ITM_Type       *)     ITM_BASE         ) /*!< ITM configuration str
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 36
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 36
 
 
 1967:Drivers/CMSIS/Include/core_cm33.h ****   #define DWT                 ((DWT_Type       *)     DWT_BASE         ) /*!< DWT configuration str
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 2021:Drivers/CMSIS/Include/core_cm33.h **** 
 2022:Drivers/CMSIS/Include/core_cm33.h **** 
 2023:Drivers/CMSIS/Include/core_cm33.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 37
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 37
 
 
 2024:Drivers/CMSIS/Include/core_cm33.h **** /* ##########################   NVIC functions  #################################### */
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 2078:Drivers/CMSIS/Include/core_cm33.h **** 
 2079:Drivers/CMSIS/Include/core_cm33.h **** /* Integrity Signature (from ARMv8-M Architecture Reference Manual) for exception context stacking 
 2080:Drivers/CMSIS/Include/core_cm33.h **** #if defined (__FPU_PRESENT) && (__FPU_PRESENT == 1U)  /* Value for processors with floating-point e
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 38
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 38
 
 
 2081:Drivers/CMSIS/Include/core_cm33.h **** #define EXC_INTEGRITY_SIGNATURE     (0xFEFA125AUL)     /* bit [0] SFTC must match LR bit[4] EXC_RET
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
   36              		.loc 2 2129 3 view .LVU1
   37              		.loc 2 2129 6 is_stmt 0 view .LVU2
   38 0000 0028     		cmp	r0, #0
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 39
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 39
 
 
   39              	.LVL1:
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 2151:Drivers/CMSIS/Include/core_cm33.h ****   }
 2152:Drivers/CMSIS/Include/core_cm33.h ****   else
 2153:Drivers/CMSIS/Include/core_cm33.h ****   {
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 40
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 40
 
 
 2154:Drivers/CMSIS/Include/core_cm33.h ****     return(0U);
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
   11:Drivers/CMSIS/Include/cmsis_gcc.h ****  *
   12:Drivers/CMSIS/Include/cmsis_gcc.h ****  * Licensed under the Apache License, Version 2.0 (the License); you may
   13:Drivers/CMSIS/Include/cmsis_gcc.h ****  * not use this file except in compliance with the License.
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 41
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 41
 
 
   14:Drivers/CMSIS/Include/cmsis_gcc.h ****  * You may obtain a copy of the License at
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
   68:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __PACKED_UNION                         union __attribute__((packed, aligned(1)))
   69:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
   70:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __UNALIGNED_UINT32        /* deprecated */
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 42
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 42
 
 
   71:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic push
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  125:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Initializes data and bss sections
  126:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details This default implementations initialized all data and additional bss
  127:Drivers/CMSIS/Include/cmsis_gcc.h ****            sections relying on .copy.table and .zero.table specified properly
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 43
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 43
 
 
  128:Drivers/CMSIS/Include/cmsis_gcc.h ****            in the used linker script.
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  182:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __VECTOR_TABLE_ATTRIBUTE  __attribute((used, section(".vectors")))
  183:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  184:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 44
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 44
 
 
  185:Drivers/CMSIS/Include/cmsis_gcc.h **** /* ###########################  Core Function Access  ########################### */
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  239:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  240:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  241:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 45
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 45
 
 
  242:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  296:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get xPSR Register
  297:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the content of the xPSR Register.
  298:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               xPSR Register value
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 46
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 46
 
 
  299:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  353:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Assigns the given value to the non-secure Process Stack Pointer (PSP) when in secure sta
  354:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    topOfProcStack  Process Stack Pointer value to set
  355:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 47
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 47
 
 
  356:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __TZ_set_PSP_NS(uint32_t topOfProcStack)
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  410:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __TZ_set_MSP_NS(uint32_t topOfMainStack)
  411:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  412:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MSR msp_ns, %0" : : "r" (topOfMainStack) : );
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 48
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 48
 
 
  413:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  467:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  468:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, primask_ns" : "=r" (result) :: "memory");
  469:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 49
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 49
 
 
  470:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  524:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get Base Priority
  525:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the current value of the Base Priority register.
  526:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               Base Priority register value
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 50
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 50
 
 
  527:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  581:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    basePri  Base Priority value to set
  582:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  583:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __set_BASEPRI_MAX(uint32_t basePri)
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 51
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 51
 
 
  584:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  638:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MSR faultmask_ns, %0" : : "r" (faultMask) : "memory");
  639:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  640:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 52
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 52
 
 
  641:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  695:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  696:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Process Stack Pointer Limit
  697:Drivers/CMSIS/Include/cmsis_gcc.h ****   Devices without ARMv8-M Main Extensions (i.e. Cortex-M23) lack the non-secure
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 53
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 53
 
 
  698:Drivers/CMSIS/Include/cmsis_gcc.h ****   Stack Pointer Limit register hence the write is silently ignored in non-secure
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  752:Drivers/CMSIS/Include/cmsis_gcc.h **** #else
  753:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
  754:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, msplim" : "=r" (result) );
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 54
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 54
 
 
  755:Drivers/CMSIS/Include/cmsis_gcc.h ****   return result;
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  809:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  810:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Assigns the given value to the non-secure Main Stack Pointer Limit (MSPLIM) when in secu
  811:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    MainStackPtrLimit  Main Stack Pointer value to set
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 55
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 55
 
 
  812:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  866:Drivers/CMSIS/Include/cmsis_gcc.h ****   /* see https://gcc.gnu.org/ml/gcc-patches/2017-04/msg00443.html */
  867:Drivers/CMSIS/Include/cmsis_gcc.h ****   __builtin_arm_set_fpscr(fpscr);
  868:Drivers/CMSIS/Include/cmsis_gcc.h **** #else
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 56
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 56
 
 
  869:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("VMSR fpscr, %0" : : "r" (fpscr) : "vfpcc", "memory");
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  923:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  924:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __SEV()                             __ASM volatile ("sev")
  925:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 57
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 57
 
 
  926:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  129              	.L8:
  130              		.align	2
  131              	.L7:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 58
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 58
 
 
  132 0020 00E100E0 		.word	-536813312
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 2217:Drivers/CMSIS/Include/core_cm33.h ****  */
 2218:Drivers/CMSIS/Include/core_cm33.h **** __STATIC_INLINE void __NVIC_ClearPendingIRQ(IRQn_Type IRQn)
 2219:Drivers/CMSIS/Include/core_cm33.h **** {
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 59
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 59
 
 
 2220:Drivers/CMSIS/Include/core_cm33.h ****   if ((int32_t)(IRQn) >= 0)
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 2274:Drivers/CMSIS/Include/core_cm33.h ****   \return             0  if interrupt is assigned to Secure
 2275:Drivers/CMSIS/Include/core_cm33.h ****                       1  if interrupt is assigned to Non Secure
 2276:Drivers/CMSIS/Include/core_cm33.h ****   \note    IRQn must not be negative.
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 60
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 60
 
 
 2277:Drivers/CMSIS/Include/core_cm33.h ****  */
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 2326:Drivers/CMSIS/Include/core_cm33.h ****   if ((int32_t)(IRQn) >= 0)
  150              		.loc 2 2326 3 view .LVU29
  151              		.loc 2 2326 6 is_stmt 0 view .LVU30
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 61
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 61
 
 
  152 0000 0028     		cmp	r0, #0
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 2337:Drivers/CMSIS/Include/core_cm33.h **** /**
 2338:Drivers/CMSIS/Include/core_cm33.h ****   \brief   Get Interrupt Priority
 2339:Drivers/CMSIS/Include/core_cm33.h ****   \details Reads the priority of a device specific interrupt or a processor exception.
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 62
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 62
 
 
 2340:Drivers/CMSIS/Include/core_cm33.h ****            The interrupt number can be positive to specify a device specific interrupt,
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  235              		.section	.text.NVIC_EncodePriority,"ax",%progbits
  236              		.align	1
  237              		.syntax unified
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 63
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 63
 
 
  238              		.thumb
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  272              		.loc 2 2378 109 discriminator 1 view .LVU66
  273 001a C31E     		subs	r3, r0, #3
  274              	.L20:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 64
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 64
 
 
  275              	.LVL14:
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 2399:Drivers/CMSIS/Include/core_cm33.h **** {
  310              		.loc 2 2399 1 is_stmt 1 view -0
  311              		.cfi_startproc
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 65
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 65
 
 
  312              		@ args = 0, pretend = 0, frame = 0
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  357 002e 0EFA01FE 		lsl	lr, lr, r1
  358 0032 20EA0E00 		bic	r0, r0, lr
  359              	.LVL25:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 66
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 66
 
 
  360              		.loc 2 2408 21 discriminator 4 view .LVU94
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 2441:Drivers/CMSIS/Include/core_cm33.h **** }
 2442:Drivers/CMSIS/Include/core_cm33.h **** 
 2443:Drivers/CMSIS/Include/core_cm33.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 67
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 67
 
 
 2444:Drivers/CMSIS/Include/core_cm33.h **** /**
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  420              	@ 946 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
  421 0012 BFF34F8F 		dsb 0xF
  422              	@ 0 "" 2
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 68
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 68
 
 
  423              		.thumb
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
   20:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   *
   21:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   ******************************************************************************
   22:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   @verbatim
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 69
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 69
 
 
   23:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   ==============================================================================
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
   77:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****     *** How to configure MPU (secure and non secure) using CORTEX HAL driver ***
   78:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****     ===========================================================
   79:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****     [..]
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 70
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 70
 
 
   80:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****     This section provides functions allowing to Enable and configure the MPU secure and non-secure.
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  134:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** /* Private functions ---------------------------------------------------------*/
  135:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** /** @defgroup CORTEX_Private_Functions CORTEX Private Functions
  136:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   * @{
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 71
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 71
 
 
  137:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   */
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  191:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   NVIC_SetPriorityGrouping(PriorityGroup);
  192:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** }
  193:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 72
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 72
 
 
  194:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** /**
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  248:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** void HAL_NVIC_DisableIRQ(IRQn_Type IRQn)
  249:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** {
  250:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   /* Check the parameters */
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 73
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 73
 
 
  251:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   assert_param(IS_NVIC_DEVICE_IRQ(IRQn));
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  305:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   return NVIC_GetPriorityGrouping();
  306:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** }
  307:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 74
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 74
 
 
  308:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** /**
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  362:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   */
  363:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** uint32_t HAL_NVIC_GetPendingIRQ(IRQn_Type IRQn)
  364:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** {
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 75
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 75
 
 
  365:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   /* Return 1 if pending else 0 */
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  419:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****     case SYSTICK_CLKSOURCE_HCLK_DIV8:
  420:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****       CLEAR_BIT(SysTick->CTRL, SysTick_CTRL_CLKSOURCE_Msk);
  421:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****       MODIFY_REG(RCC->CCIPR1, RCC_CCIPR1_SYSTICKSEL, (0x00000000U));
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 76
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 76
 
 
  422:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****       break;
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  476:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   /* Enable fault exceptions */
  477:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   SCB->SHCSR |= SCB_SHCSR_MEMFAULTENA_Msk;
  478:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 77
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 77
 
 
  479:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   /* Follow ARM recommendation with */
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  533:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   /* Disable the MPU */
  534:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   MPU_NS->CTRL  &= ~MPU_CTRL_ENABLE_Msk;
  535:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** }
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 78
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 78
 
 
  536:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** #endif /* __ARM_FEATURE_CMSE */
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  590:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** /**
  591:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   * @}
  592:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   */
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 79
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 79
 
 
  593:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** 
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  480 0006 8360     		str	r3, [r0, #8]
  611:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** 
  612:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   if (pMPU_RegionInit->Enable != MPU_REGION_DISABLE)
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 80
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 80
 
 
  481              		.loc 1 612 3 is_stmt 1 view .LVU122
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  626:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****                   ((uint32_t)pMPU_RegionInit->Enable                << MPU_RLAR_EN_Pos));
  517              		.loc 1 626 45 view .LVU143
  518 0030 0A78     		ldrb	r2, [r1]	@ zero_extendqisi2
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 81
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 81
 
 
  625:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****                   ((uint32_t)pMPU_RegionInit->AttributesIndex       << MPU_RLAR_AttrIndx_Pos) |
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  554              		.loc 1 645 3 view .LVU155
  646:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   /* No need to check Attributes value as all 0x0..0xFF possible */
  647:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 82
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 82
 
 
  648:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   /* Follow ARM recommendation with Data Memory Barrier prior to MPUx configuration */
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  590 0010 4FF0FF0C 		mov	ip, #255
  591 0014 0CFA03FC 		lsl	ip, ip, r3
  592              		.loc 1 665 15 view .LVU170
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 83
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 83
 
 
  593 0018 22EA0C0C 		bic	ip, r2, ip
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  639              	.LBI52:
 2096:Drivers/CMSIS/Include/core_cm33.h **** {
  640              		.loc 2 2096 22 view .LVU185
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 84
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 84
 
 
  641              	.LBB53:
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  679              	.L39:
  680              		.align	2
  681              	.L38:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 85
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 85
 
 
  682 0020 00ED00E0 		.word	-536810240
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  726 000c FFF7FEFF 		bl	NVIC_EncodePriority
  727              	.LVL48:
  218:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** }
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 86
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 86
 
 
  728              		.loc 1 218 3 view .LVU214
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  249:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****   /* Check the parameters */
  780              		.loc 1 249 1 is_stmt 1 view -0
  781              		.cfi_startproc
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 87
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 87
 
 
  782              		@ args = 0, pretend = 0, frame = 0
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  833              		.cfi_startproc
  834              		@ args = 0, pretend = 0, frame = 0
  835              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 88
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 88
 
 
  836              		@ link register save eliminated.
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 2509:Drivers/CMSIS/Include/core_cm33.h ****   }
 2510:Drivers/CMSIS/Include/core_cm33.h **** }
 2511:Drivers/CMSIS/Include/core_cm33.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 89
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 89
 
 
 2512:Drivers/CMSIS/Include/core_cm33.h **** 
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 2566:Drivers/CMSIS/Include/core_cm33.h ****   }
 2567:Drivers/CMSIS/Include/core_cm33.h **** }
 2568:Drivers/CMSIS/Include/core_cm33.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 90
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 90
 
 
 2569:Drivers/CMSIS/Include/core_cm33.h **** 
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 2623:Drivers/CMSIS/Include/core_cm33.h ****   \details Sets the priority of a non-secure device specific interrupt or a non-secure processor ex
 2624:Drivers/CMSIS/Include/core_cm33.h ****            The interrupt number can be positive to specify a device specific interrupt,
 2625:Drivers/CMSIS/Include/core_cm33.h ****            or negative to specify a processor exception.
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 91
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 91
 
 
 2626:Drivers/CMSIS/Include/core_cm33.h ****   \param [in]      IRQn  Interrupt number.
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 2680:Drivers/CMSIS/Include/core_cm33.h ****   @{
 2681:Drivers/CMSIS/Include/core_cm33.h ****  */
 2682:Drivers/CMSIS/Include/core_cm33.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 92
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 92
 
 
 2683:Drivers/CMSIS/Include/core_cm33.h **** /**
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 2737:Drivers/CMSIS/Include/core_cm33.h ****   \brief   Disable SAU
 2738:Drivers/CMSIS/Include/core_cm33.h ****   \details Disables the Security Attribution Unit (SAU).
 2739:Drivers/CMSIS/Include/core_cm33.h ****  */
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 93
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 93
 
 
 2740:Drivers/CMSIS/Include/core_cm33.h **** __STATIC_INLINE void TZ_SAU_Disable(void)
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
 2781:Drivers/CMSIS/Include/core_cm33.h ****   NVIC_SetPriority (SysTick_IRQn, (1UL << __NVIC_PRIO_BITS) - 1UL); /* set Priority for Systick Int
  853              		.loc 2 2781 3 is_stmt 1 view .LVU236
  854              	.LVL57:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 94
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 94
 
 
  855              	.LBB58:
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  896              	.LFE345:
  898              		.section	.text.HAL_NVIC_GetPriorityGrouping,"ax",%progbits
  899              		.align	1
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 95
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 95
 
 
  900              		.global	HAL_NVIC_GetPriorityGrouping
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  949              		.cfi_def_cfa_offset 16
  950              		.cfi_offset 4, -16
  951              		.cfi_offset 5, -12
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 96
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 96
 
 
  952              		.cfi_offset 6, -8
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  997              		.loc 2 2205 6 view .LVU270
  998 0002 08DB     		blt	.L60
 2207:Drivers/CMSIS/Include/core_cm33.h ****   }
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 97
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 97
 
 
  999              		.loc 2 2207 5 is_stmt 1 view .LVU271
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  1045              		.loc 2 2186 3 view .LVU281
 2186:Drivers/CMSIS/Include/core_cm33.h ****   {
  1046              		.loc 2 2186 6 is_stmt 0 view .LVU282
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 98
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 98
 
 
  1047 0000 0028     		cmp	r0, #0
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  1092              		.cfi_startproc
  1093              		@ args = 0, pretend = 0, frame = 0
  1094              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 99
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 99
 
 
  1095              		@ link register save eliminated.
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  1138              		.thumb_func
  1140              	HAL_NVIC_GetActive:
  1141              	.LVL73:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 100
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 100
 
 
  1142              	.LFB351:
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  1181 001e 7047     		bx	lr
  1182              	.L77:
  1183              		.align	2
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 101
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 101
 
 
  1184              	.L76:
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  1233 002e 23F44003 		bic	r3, r3, #12582912
  1234 0032 C2F8E030 		str	r3, [r2, #224]
  422:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c ****     /* Select LSI as Systick clock source */
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 102
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 102
 
 
  1235              		.loc 1 422 7 view .LVU328
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  1283              		.loc 1 453 1 is_stmt 1 view -0
  1284              		.cfi_startproc
  1285              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 103
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 103
 
 
  1286              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  474:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** 
  1337              		.loc 1 474 15 view .LVU344
  1338 0004 054B     		ldr	r3, .L92
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 104
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 104
 
 
  1339 0006 C3F89400 		str	r0, [r3, #148]
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  1385              		.global	HAL_MPU_Disable
  1386              		.syntax unified
  1387              		.thumb
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 105
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 105
 
 
  1388              		.thumb_func
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  1437              		.loc 1 545 1 is_stmt 1 view -0
  1438              		.cfi_startproc
  1439              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 106
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 106
 
 
  1440              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  571:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c **** 
  1488              		.loc 1 571 1 view .LVU372
  1489 000a 08BD     		pop	{r3, pc}
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 107
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 107
 
 
  1490              	.L104:
@@ -6373,90 +6373,90 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 1
  1500              		.file 5 "c:\\users\\soran\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
  1501              		.file 6 "c:\\users\\soran\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
  1502              		.file 7 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_cortex.h"
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 108
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 108
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32u5xx_hal_cortex.c
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:22     .text.__NVIC_EnableIRQ:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:27     .text.__NVIC_EnableIRQ:0000000000000000 __NVIC_EnableIRQ
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:61     .text.__NVIC_EnableIRQ:0000000000000018 $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:66     .text.__NVIC_DisableIRQ:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:71     .text.__NVIC_DisableIRQ:0000000000000000 __NVIC_DisableIRQ
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:132    .text.__NVIC_DisableIRQ:0000000000000020 $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:137    .text.__NVIC_SetPriority:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:142    .text.__NVIC_SetPriority:0000000000000000 __NVIC_SetPriority
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:185    .text.__NVIC_SetPriority:0000000000000024 $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:190    .text.__NVIC_GetPriority:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:195    .text.__NVIC_GetPriority:0000000000000000 __NVIC_GetPriority
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:231    .text.__NVIC_GetPriority:0000000000000020 $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:236    .text.NVIC_EncodePriority:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:241    .text.NVIC_EncodePriority:0000000000000000 NVIC_EncodePriority
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:302    .text.NVIC_DecodePriority:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:307    .text.NVIC_DecodePriority:0000000000000000 NVIC_DecodePriority
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:375    .text.__NVIC_SystemReset:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:380    .text.__NVIC_SystemReset:0000000000000000 __NVIC_SystemReset
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:441    .text.__NVIC_SystemReset:000000000000001c $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:447    .text.MPU_ConfigRegion:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:452    .text.MPU_ConfigRegion:0000000000000000 MPU_ConfigRegion
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:538    .text.MPU_ConfigMemoryAttributes:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:543    .text.MPU_ConfigMemoryAttributes:0000000000000000 MPU_ConfigMemoryAttributes
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:622    .text.HAL_NVIC_SetPriorityGrouping:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:628    .text.HAL_NVIC_SetPriorityGrouping:0000000000000000 HAL_NVIC_SetPriorityGrouping
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:682    .text.HAL_NVIC_SetPriorityGrouping:0000000000000020 $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:687    .text.HAL_NVIC_SetPriority:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:693    .text.HAL_NVIC_SetPriority:0000000000000000 HAL_NVIC_SetPriority
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:738    .text.HAL_NVIC_SetPriority:000000000000001c $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:743    .text.HAL_NVIC_EnableIRQ:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:749    .text.HAL_NVIC_EnableIRQ:0000000000000000 HAL_NVIC_EnableIRQ
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:771    .text.HAL_NVIC_DisableIRQ:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:777    .text.HAL_NVIC_DisableIRQ:0000000000000000 HAL_NVIC_DisableIRQ
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:799    .text.HAL_NVIC_SystemReset:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:805    .text.HAL_NVIC_SystemReset:0000000000000000 HAL_NVIC_SystemReset
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:823    .text.HAL_SYSTICK_Config:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:829    .text.HAL_SYSTICK_Config:0000000000000000 HAL_SYSTICK_Config
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:894    .text.HAL_SYSTICK_Config:0000000000000024 $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:899    .text.HAL_NVIC_GetPriorityGrouping:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:905    .text.HAL_NVIC_GetPriorityGrouping:0000000000000000 HAL_NVIC_GetPriorityGrouping
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:929    .text.HAL_NVIC_GetPriorityGrouping:000000000000000c $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:934    .text.HAL_NVIC_GetPriority:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:940    .text.HAL_NVIC_GetPriority:0000000000000000 HAL_NVIC_GetPriority
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:974    .text.HAL_NVIC_SetPendingIRQ:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:980    .text.HAL_NVIC_SetPendingIRQ:0000000000000000 HAL_NVIC_SetPendingIRQ
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1021   .text.HAL_NVIC_SetPendingIRQ:0000000000000018 $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1026   .text.HAL_NVIC_GetPendingIRQ:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1032   .text.HAL_NVIC_GetPendingIRQ:0000000000000000 HAL_NVIC_GetPendingIRQ
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1077   .text.HAL_NVIC_GetPendingIRQ:0000000000000020 $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1082   .text.HAL_NVIC_ClearPendingIRQ:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1088   .text.HAL_NVIC_ClearPendingIRQ:0000000000000000 HAL_NVIC_ClearPendingIRQ
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1129   .text.HAL_NVIC_ClearPendingIRQ:0000000000000018 $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1134   .text.HAL_NVIC_GetActive:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1140   .text.HAL_NVIC_GetActive:0000000000000000 HAL_NVIC_GetActive
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1185   .text.HAL_NVIC_GetActive:0000000000000020 $d
-ARM GAS  C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s 			page 109
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:22     .text.__NVIC_EnableIRQ:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:27     .text.__NVIC_EnableIRQ:0000000000000000 __NVIC_EnableIRQ
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:61     .text.__NVIC_EnableIRQ:0000000000000018 $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:66     .text.__NVIC_DisableIRQ:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:71     .text.__NVIC_DisableIRQ:0000000000000000 __NVIC_DisableIRQ
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:132    .text.__NVIC_DisableIRQ:0000000000000020 $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:137    .text.__NVIC_SetPriority:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:142    .text.__NVIC_SetPriority:0000000000000000 __NVIC_SetPriority
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:185    .text.__NVIC_SetPriority:0000000000000024 $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:190    .text.__NVIC_GetPriority:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:195    .text.__NVIC_GetPriority:0000000000000000 __NVIC_GetPriority
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:231    .text.__NVIC_GetPriority:0000000000000020 $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:236    .text.NVIC_EncodePriority:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:241    .text.NVIC_EncodePriority:0000000000000000 NVIC_EncodePriority
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:302    .text.NVIC_DecodePriority:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:307    .text.NVIC_DecodePriority:0000000000000000 NVIC_DecodePriority
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:375    .text.__NVIC_SystemReset:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:380    .text.__NVIC_SystemReset:0000000000000000 __NVIC_SystemReset
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:441    .text.__NVIC_SystemReset:000000000000001c $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:447    .text.MPU_ConfigRegion:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:452    .text.MPU_ConfigRegion:0000000000000000 MPU_ConfigRegion
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:538    .text.MPU_ConfigMemoryAttributes:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:543    .text.MPU_ConfigMemoryAttributes:0000000000000000 MPU_ConfigMemoryAttributes
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:622    .text.HAL_NVIC_SetPriorityGrouping:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:628    .text.HAL_NVIC_SetPriorityGrouping:0000000000000000 HAL_NVIC_SetPriorityGrouping
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:682    .text.HAL_NVIC_SetPriorityGrouping:0000000000000020 $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:687    .text.HAL_NVIC_SetPriority:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:693    .text.HAL_NVIC_SetPriority:0000000000000000 HAL_NVIC_SetPriority
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:738    .text.HAL_NVIC_SetPriority:000000000000001c $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:743    .text.HAL_NVIC_EnableIRQ:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:749    .text.HAL_NVIC_EnableIRQ:0000000000000000 HAL_NVIC_EnableIRQ
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:771    .text.HAL_NVIC_DisableIRQ:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:777    .text.HAL_NVIC_DisableIRQ:0000000000000000 HAL_NVIC_DisableIRQ
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:799    .text.HAL_NVIC_SystemReset:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:805    .text.HAL_NVIC_SystemReset:0000000000000000 HAL_NVIC_SystemReset
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:823    .text.HAL_SYSTICK_Config:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:829    .text.HAL_SYSTICK_Config:0000000000000000 HAL_SYSTICK_Config
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:894    .text.HAL_SYSTICK_Config:0000000000000024 $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:899    .text.HAL_NVIC_GetPriorityGrouping:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:905    .text.HAL_NVIC_GetPriorityGrouping:0000000000000000 HAL_NVIC_GetPriorityGrouping
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:929    .text.HAL_NVIC_GetPriorityGrouping:000000000000000c $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:934    .text.HAL_NVIC_GetPriority:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:940    .text.HAL_NVIC_GetPriority:0000000000000000 HAL_NVIC_GetPriority
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:974    .text.HAL_NVIC_SetPendingIRQ:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:980    .text.HAL_NVIC_SetPendingIRQ:0000000000000000 HAL_NVIC_SetPendingIRQ
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1021   .text.HAL_NVIC_SetPendingIRQ:0000000000000018 $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1026   .text.HAL_NVIC_GetPendingIRQ:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1032   .text.HAL_NVIC_GetPendingIRQ:0000000000000000 HAL_NVIC_GetPendingIRQ
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1077   .text.HAL_NVIC_GetPendingIRQ:0000000000000020 $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1082   .text.HAL_NVIC_ClearPendingIRQ:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1088   .text.HAL_NVIC_ClearPendingIRQ:0000000000000000 HAL_NVIC_ClearPendingIRQ
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1129   .text.HAL_NVIC_ClearPendingIRQ:0000000000000018 $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1134   .text.HAL_NVIC_GetActive:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1140   .text.HAL_NVIC_GetActive:0000000000000000 HAL_NVIC_GetActive
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1185   .text.HAL_NVIC_GetActive:0000000000000020 $d
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpaO06j.s 			page 109
 
 
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1190   .text.HAL_SYSTICK_CLKSourceConfig:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1196   .text.HAL_SYSTICK_CLKSourceConfig:0000000000000000 HAL_SYSTICK_CLKSourceConfig
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1210   .text.HAL_SYSTICK_CLKSourceConfig:0000000000000008 $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1270   .text.HAL_SYSTICK_CLKSourceConfig:0000000000000078 $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1275   .text.HAL_SYSTICK_Callback:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1281   .text.HAL_SYSTICK_Callback:0000000000000000 HAL_SYSTICK_Callback
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1294   .text.HAL_SYSTICK_IRQHandler:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1300   .text.HAL_SYSTICK_IRQHandler:0000000000000000 HAL_SYSTICK_IRQHandler
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1319   .text.HAL_MPU_Enable:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1325   .text.HAL_MPU_Enable:0000000000000000 HAL_MPU_Enable
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1379   .text.HAL_MPU_Enable:000000000000001c $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1384   .text.HAL_MPU_Disable:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1390   .text.HAL_MPU_Disable:0000000000000000 HAL_MPU_Disable
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1423   .text.HAL_MPU_Disable:0000000000000014 $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1428   .text.HAL_MPU_ConfigRegion:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1434   .text.HAL_MPU_ConfigRegion:0000000000000000 HAL_MPU_ConfigRegion
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1458   .text.HAL_MPU_ConfigRegion:000000000000000c $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1463   .text.HAL_MPU_ConfigMemoryAttributes:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1469   .text.HAL_MPU_ConfigMemoryAttributes:0000000000000000 HAL_MPU_ConfigMemoryAttributes
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1493   .text.HAL_MPU_ConfigMemoryAttributes:000000000000000c $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1215   .text.HAL_SYSTICK_CLKSourceConfig:000000000000000d $d
-C:\Users\soran\AppData\Local\Temp\cc6CHZ6b.s:1215   .text.HAL_SYSTICK_CLKSourceConfig:000000000000000e $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1190   .text.HAL_SYSTICK_CLKSourceConfig:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1196   .text.HAL_SYSTICK_CLKSourceConfig:0000000000000000 HAL_SYSTICK_CLKSourceConfig
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1210   .text.HAL_SYSTICK_CLKSourceConfig:0000000000000008 $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1270   .text.HAL_SYSTICK_CLKSourceConfig:0000000000000078 $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1275   .text.HAL_SYSTICK_Callback:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1281   .text.HAL_SYSTICK_Callback:0000000000000000 HAL_SYSTICK_Callback
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1294   .text.HAL_SYSTICK_IRQHandler:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1300   .text.HAL_SYSTICK_IRQHandler:0000000000000000 HAL_SYSTICK_IRQHandler
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1319   .text.HAL_MPU_Enable:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1325   .text.HAL_MPU_Enable:0000000000000000 HAL_MPU_Enable
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1379   .text.HAL_MPU_Enable:000000000000001c $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1384   .text.HAL_MPU_Disable:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1390   .text.HAL_MPU_Disable:0000000000000000 HAL_MPU_Disable
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1423   .text.HAL_MPU_Disable:0000000000000014 $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1428   .text.HAL_MPU_ConfigRegion:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1434   .text.HAL_MPU_ConfigRegion:0000000000000000 HAL_MPU_ConfigRegion
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1458   .text.HAL_MPU_ConfigRegion:000000000000000c $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1463   .text.HAL_MPU_ConfigMemoryAttributes:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1469   .text.HAL_MPU_ConfigMemoryAttributes:0000000000000000 HAL_MPU_ConfigMemoryAttributes
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1493   .text.HAL_MPU_ConfigMemoryAttributes:000000000000000c $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1215   .text.HAL_SYSTICK_CLKSourceConfig:000000000000000d $d
+C:\Users\soran\AppData\Local\Temp\ccpaO06j.s:1215   .text.HAL_SYSTICK_CLKSourceConfig:000000000000000e $t
 
 NO UNDEFINED SYMBOLS

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 1
 
 
    1              		.cpu cortex-m33
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
   26:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****     (+) Each port bit of the general-purpose I/O (GPIO) ports can be individually
   27:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****         configured by software in several modes:
   28:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****         (++) Input mode
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 2
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 2
 
 
   29:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****         (++) Analog mode
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
   83:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****     (#) To set/reset the level of a pin configured in output mode use
   84:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****         HAL_GPIO_WritePin()/HAL_GPIO_TogglePin().
   85:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 3
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 3
 
 
   86:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****     (#) To set the level of several pins and reset level of several other pins in
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  140:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** /** @defgroup GPIO_Private_Variables GPIO Private Variables
  141:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   * @{
  142:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   */
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 4
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 4
 
 
  143:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  197:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   *         the configuration information for the specified GPIO peripheral.
  198:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   * @retval None
  199:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   */
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 5
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 5
 
 
  200:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** void HAL_GPIO_Init(GPIO_TypeDef  *GPIOx, const GPIO_InitTypeDef *pGPIO_Init)
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  221:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** 
  222:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****     /* Save Pin Position */
  223:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****     pin_position = position;
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 6
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 6
 
 
  224:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
   97              		.loc 1 242 13 view .LVU32
   98 0028 0837     		adds	r7, r7, #8
   99 002a 54F82760 		ldr	r6, [r4, r7, lsl #2]
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 7
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 7
 
 
  100              	.LVL9:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  145 006a 21E0     		b	.L5
  146              	.LVL15:
  147              	.L6:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 8
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 8
 
 
  252:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****       }
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  268:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****         tmp &= ~(GPIO_MODER_MODE0 << (pin_position * 2U));
  186              		.loc 1 268 9 is_stmt 1 view .LVU74
  187              		.loc 1 268 52 is_stmt 0 view .LVU75
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 9
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 9
 
 
  188 0098 5F00     		lsls	r7, r3, #1
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  223              		.loc 1 286 53 view .LVU91
  224 00c0 122E     		cmp	r6, #18
  225 00c2 1CD1     		bne	.L9
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 10
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 10
 
 
  226              	.L8:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  266              		.loc 1 300 56 view .LVU112
  267 00f2 C6F30016 		ubfx	r6, r6, #4, #1
  268              		.loc 1 300 63 view .LVU113
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 11
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 11
 
 
  269 00f6 AE40     		lsls	r6, r6, r5
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  310              	.LVL34:
  311              	.L10:
  314:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****       }
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 12
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 12
 
 
  315:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  353              		.loc 1 327 9 is_stmt 1 view .LVU152
  354              		.loc 1 327 16 is_stmt 0 view .LVU153
  355 0158 6FEA020C 		mvn	ip, r2
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 13
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 13
 
 
  356              		.loc 1 327 13 view .LVU154
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  343:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****         tmp = EXTI->EMR1;
  395              		.loc 1 343 9 is_stmt 1 view .LVU171
  396              		.loc 1 343 13 is_stmt 0 view .LVU172
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 14
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 14
 
 
  397 0186 D6F88460 		ldr	r6, [r6, #132]
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  437              		.loc 1 357 20 is_stmt 0 view .LVU191
  438 01b4 164A     		ldr	r2, .L19+4
  439              	.LVL50:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 15
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 15
 
 
  440              		.loc 1 357 20 view .LVU192
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  477 01de 3FF445AF 		beq	.L6
  253:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****       {
  478              		.loc 1 253 54 discriminator 1 view .LVU209
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 16
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 16
 
 
  479 01e2 122D     		cmp	r5, #18
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  516              	.L20:
  517              		.loc 1 362 1 view .LVU226
  518 020a 00BF     		.align	2
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 17
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 17
 
 
  519              	.L19:
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  382:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** 
  383:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   /* Save GPIO port address */
  384:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   p_gpio = GPIOx;
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 18
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 18
 
 
  556              		.loc 1 384 3 view .LVU235
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  589 001c 23EA0603 		bic	r3, r3, r6
  590 0020 3B60     		str	r3, [r7]
  591              	.L25:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 19
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 19
 
 
  404:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****       }
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  615              		.loc 1 434 39 view .LVU260
  616 0048 26EA0E06 		bic	r6, r6, lr
  617 004c 44F82C60 		str	r6, [r4, ip, lsl #2]
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 20
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 20
 
 
  435:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** 
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  393:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** 
  657              		.loc 1 393 5 is_stmt 1 view .LVU277
  395:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****     {
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 21
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 21
 
 
  658              		.loc 1 395 5 view .LVU278
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  695              		.loc 1 414 12 view .LVU295
  696 00aa 6545     		cmp	r5, ip
  697 00ac 01D0     		beq	.L31
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 22
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 22
 
 
  393:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  425:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****         }
  735              		.loc 1 425 40 view .LVU313
  736 00e4 23EA0703 		bic	r3, r3, r7
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 23
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 23
 
 
  737 00e8 45F82E30 		str	r3, [r5, lr, lsl #2]
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  472:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   * @retval The input port pin value.
  473:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   */
  474:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** GPIO_PinState HAL_GPIO_ReadPin(const GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin)
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 24
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 24
 
 
  475:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** {
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  492:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** 
  493:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** /**
  494:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   * @brief  Set or clear the selected data port bit.
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 25
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 25
 
 
  495:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   * @note   This function uses GPIOx_BSRR/LPGPIOx_BSRR and GPIOx_BRR/LPGPIOx_BRR registers to allow
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  833              		.thumb
  834              		.thumb_func
  836              	HAL_GPIO_WriteMultipleStatePin:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 26
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 26
 
 
  837              	.LVL86:
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  864              		.thumb_func
  866              	HAL_GPIO_TogglePin:
  867              	.LVL88:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 27
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 27
 
 
  868              	.LFB345:
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  902              	HAL_GPIO_LockPin:
  903              	.LVL91:
  904              	.LFB346:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 28
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 28
 
 
  573:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** 
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  602:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   while ((GPIO_Pin >> position) != 0U)
  930              		.loc 1 602 3 view .LVU369
  599:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 29
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 29
 
 
  931              		.loc 1 599 10 is_stmt 0 view .LVU370
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  965 0026 019D     		ldr	r5, [sp, #4]
  966 0028 2A43     		orrs	r2, r2, r5
  967 002a 0192     		str	r2, [sp, #4]
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 30
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 30
 
 
  968              	.LVL101:
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  995              	.LVL104:
  996              	.L44:
  649:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****       {
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 31
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 31
 
 
  650:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****         return HAL_ERROR;
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  1033 0064 0192     		str	r2, [sp, #4]
  1034 0066 E1E7     		b	.L46
  1035              	.LVL110:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 32
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 32
 
 
  1036              	.L51:
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  665:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   *         peripheral for STM32U5 family
  666:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   * @param  GPIO_Pin: specifies the port bit to be written.
  667:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   *         This parameter can be any combination of GPIO_Pin_x where x can be (0..15).
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 33
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 33
 
 
  668:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   * @retval None
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
    7:Drivers/CMSIS/Include/cmsis_gcc.h **** /*
    8:Drivers/CMSIS/Include/cmsis_gcc.h ****  * Copyright (c) 2009-2019 Arm Limited. All rights reserved.
    9:Drivers/CMSIS/Include/cmsis_gcc.h ****  *
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 34
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 34
 
 
   10:Drivers/CMSIS/Include/cmsis_gcc.h ****  * SPDX-License-Identifier: Apache-2.0
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
   64:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __PACKED_STRUCT
   65:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __PACKED_STRUCT                        struct __attribute__((packed, aligned(1)))
   66:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 35
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 35
 
 
   67:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __PACKED_UNION
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  121:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  122:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef __PROGRAM_START
  123:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 36
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 36
 
 
  124:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  178:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __VECTOR_TABLE            __Vectors
  179:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  180:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 37
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 37
 
 
  181:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef __VECTOR_TABLE_ATTRIBUTE
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  235:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
  236:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  237:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, control_ns" : "=r" (result) );
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 38
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 38
 
 
  238:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  292:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  293:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  294:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 39
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 39
 
 
  295:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  349:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  350:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (defined (__ARM_FEATURE_CMSE ) && (__ARM_FEATURE_CMSE == 3))
  351:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 40
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 40
 
 
  352:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Process Stack Pointer (non-secure)
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  406:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Main Stack Pointer (non-secure)
  407:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Assigns the given value to the non-secure Main Stack Pointer (MSP) when in secure state.
  408:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    topOfMainStack  Main Stack Pointer value to set
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 41
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 41
 
 
  409:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  463:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  464:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __TZ_get_PRIMASK_NS(void)
  465:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 42
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 42
 
 
  466:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  520:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  521:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  522:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 43
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 43
 
 
  523:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  577:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  578:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Base Priority with condition
  579:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Assigns the given value to the Base Priority register only if BASEPRI masking is disable
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 44
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 44
 
 
  580:Drivers/CMSIS/Include/cmsis_gcc.h ****            or the new value increases the BASEPRI priority level.
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  634:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    faultMask  Fault Mask value to set
  635:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  636:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __TZ_set_FAULTMASK_NS(uint32_t faultMask)
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 45
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 45
 
 
  637:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  691:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  692:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  693:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 46
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 46
 
 
  694:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  748:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (!(defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)) && \
  749:Drivers/CMSIS/Include/cmsis_gcc.h ****     (!defined (__ARM_FEATURE_CMSE) || (__ARM_FEATURE_CMSE < 3)))
  750:Drivers/CMSIS/Include/cmsis_gcc.h ****   // without main extensions, the non-secure MSPLIM is RAZ/WI
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 47
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 47
 
 
  751:Drivers/CMSIS/Include/cmsis_gcc.h ****   return 0U;
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  805:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  806:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Main Stack Pointer Limit (non-secure)
  807:Drivers/CMSIS/Include/cmsis_gcc.h ****   Devices without ARMv8-M Main Extensions (i.e. Cortex-M23) lack the non-secure
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 48
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 48
 
 
  808:Drivers/CMSIS/Include/cmsis_gcc.h ****   Stack Pointer Limit register hence the write is silently ignored.
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  862:Drivers/CMSIS/Include/cmsis_gcc.h ****      (defined (__FPU_USED   ) && (__FPU_USED    == 1U))     )
  863:Drivers/CMSIS/Include/cmsis_gcc.h **** #if __has_builtin(__builtin_arm_set_fpscr)
  864:Drivers/CMSIS/Include/cmsis_gcc.h **** // Re-enable using built-in when GCC has been fixed
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 49
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 49
 
 
  865:Drivers/CMSIS/Include/cmsis_gcc.h **** // || (__GNUC__ > 7) || (__GNUC__ == 7 && __GNUC_MINOR__ >= 2)
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  919:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  920:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  921:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Send Event
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 50
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 50
 
 
  922:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Send Event is a hint instruction. It causes an event to be signaled to the CPU.
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  976:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  977:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  978:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 51
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 51
 
 
  979:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
 1033:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Breakpoint
 1034:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Causes the processor to enter Debug state.
 1035:Drivers/CMSIS/Include/cmsis_gcc.h ****            Debug tools can use this to investigate system state when the instruction at a particula
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 52
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 52
 
 
 1036:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    value  is ignored by the processor.
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
 1090:Drivers/CMSIS/Include/cmsis_gcc.h ****   {
 1091:Drivers/CMSIS/Include/cmsis_gcc.h ****     return 32U;
 1092:Drivers/CMSIS/Include/cmsis_gcc.h ****   }
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 53
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 53
 
 
 1093:Drivers/CMSIS/Include/cmsis_gcc.h ****   return __builtin_clz(value);
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  1135 001e EC6A     		ldr	r4, [r5, #44]
  1136 0020 2343     		orrs	r3, r3, r4
  1137              	.LVL122:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 54
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 54
 
 
  1138              		.loc 1 710 7 is_stmt 0 view .LVU442
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
 1068:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  1178              		.loc 2 1068 3 is_stmt 0 view .LVU457
  1179              		.thumb
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 55
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 55
 
 
  1180              		.syntax unified
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  716:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** /**
  717:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   * @brief  Disable speed optimization for several pin of dedicated port.
  718:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   * @note   Not all I/Os support the HSLV mode. Refer to the I/O structure in the corresponding
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 56
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 56
 
 
  719:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   *         datasheet for the list of I/Os supporting this feature. Other I/Os HSLV configuration m
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  1255              		.loc 2 1093 3 is_stmt 1 view .LVU478
  1256              		.loc 2 1093 10 is_stmt 0 view .LVU479
  1257 0008 B3FA83F3 		clz	r3, r3
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 57
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 57
 
 
  1258              	.LVL134:
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  1286 0024 EB62     		str	r3, [r5, #44]
  1287              	.LVL139:
  1288              	.L69:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 58
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 58
 
 
  769:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****     }
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  1328              	.LBE20:
  1329              	.LBE19:
  1330              	.LBB21:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 59
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 59
 
 
  1331              	.LBI16:
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  778:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   */
  779:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** void HAL_GPIO_EXTI_IRQHandler(uint16_t GPIO_Pin)
  780:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** {
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 60
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 60
 
 
  781:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   /* EXTI line interrupt detected */
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  816:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c **** {
  1395              		.loc 1 816 1 is_stmt 1 view -0
  1396              		.cfi_startproc
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 61
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 61
 
 
  1397              		@ args = 0, pretend = 0, frame = 0
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  788:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c ****   {
  1439              		.loc 1 788 6 view .LVU526
  1440 0010 1C42     		tst	r4, r3
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 62
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 62
 
 
  1441 0012 05D1     		bne	.L86
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  1491 0038 000C0242 		.word	1107430400
  1492 003c 02000000 		.word	2
  1493 0040 00080242 		.word	1107429376
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 63
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 63
 
 
  1494 0044 0A000000 		.word	10
@@ -3744,42 +3744,42 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 1
  1514              		.file 6 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_def.h"
  1515              		.file 7 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpio.h"
  1516              		.file 8 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpio_ex.h"
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccOHx57j.s 			page 64
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s 			page 64
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32u5xx_hal_gpio.c
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:22     .text.HAL_GPIO_Init:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:28     .text.HAL_GPIO_Init:0000000000000000 HAL_GPIO_Init
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:520    .text.HAL_GPIO_Init:000000000000020c $d
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:1476   .rodata.LPGPIO_Map:0000000000000000 LPGPIO_Map
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:528    .text.HAL_GPIO_DeInit:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:534    .text.HAL_GPIO_DeInit:0000000000000000 HAL_GPIO_DeInit
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:750    .text.HAL_GPIO_DeInit:00000000000000f4 $d
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:758    .text.HAL_GPIO_ReadPin:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:764    .text.HAL_GPIO_ReadPin:0000000000000000 HAL_GPIO_ReadPin
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:797    .text.HAL_GPIO_WritePin:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:803    .text.HAL_GPIO_WritePin:0000000000000000 HAL_GPIO_WritePin
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:830    .text.HAL_GPIO_WriteMultipleStatePin:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:836    .text.HAL_GPIO_WriteMultipleStatePin:0000000000000000 HAL_GPIO_WriteMultipleStatePin
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:860    .text.HAL_GPIO_TogglePin:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:866    .text.HAL_GPIO_TogglePin:0000000000000000 HAL_GPIO_TogglePin
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:896    .text.HAL_GPIO_LockPin:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:902    .text.HAL_GPIO_LockPin:0000000000000000 HAL_GPIO_LockPin
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:1064   .text.HAL_GPIO_LockPin:0000000000000074 $d
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:1070   .text.HAL_GPIO_EnableHighSPeedLowVoltage:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:1076   .text.HAL_GPIO_EnableHighSPeedLowVoltage:0000000000000000 HAL_GPIO_EnableHighSPeedLowVoltage
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:1212   .text.HAL_GPIO_EnableHighSPeedLowVoltage:000000000000004c $d
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:1218   .text.HAL_GPIO_DisableHighSPeedLowVoltage:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:1224   .text.HAL_GPIO_DisableHighSPeedLowVoltage:0000000000000000 HAL_GPIO_DisableHighSPeedLowVoltage
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:1359   .text.HAL_GPIO_DisableHighSPeedLowVoltage:000000000000004c $d
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:1365   .text.HAL_GPIO_EXTI_Rising_Callback:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:1371   .text.HAL_GPIO_EXTI_Rising_Callback:0000000000000000 HAL_GPIO_EXTI_Rising_Callback
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:1386   .text.HAL_GPIO_EXTI_Falling_Callback:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:1392   .text.HAL_GPIO_EXTI_Falling_Callback:0000000000000000 HAL_GPIO_EXTI_Falling_Callback
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:1407   .text.HAL_GPIO_EXTI_IRQHandler:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:1413   .text.HAL_GPIO_EXTI_IRQHandler:0000000000000000 HAL_GPIO_EXTI_IRQHandler
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:1468   .text.HAL_GPIO_EXTI_IRQHandler:000000000000002c $d
-C:\Users\soran\AppData\Local\Temp\ccOHx57j.s:1473   .rodata.LPGPIO_Map:0000000000000000 $d
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:22     .text.HAL_GPIO_Init:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:28     .text.HAL_GPIO_Init:0000000000000000 HAL_GPIO_Init
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:520    .text.HAL_GPIO_Init:000000000000020c $d
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:1476   .rodata.LPGPIO_Map:0000000000000000 LPGPIO_Map
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:528    .text.HAL_GPIO_DeInit:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:534    .text.HAL_GPIO_DeInit:0000000000000000 HAL_GPIO_DeInit
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:750    .text.HAL_GPIO_DeInit:00000000000000f4 $d
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:758    .text.HAL_GPIO_ReadPin:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:764    .text.HAL_GPIO_ReadPin:0000000000000000 HAL_GPIO_ReadPin
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:797    .text.HAL_GPIO_WritePin:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:803    .text.HAL_GPIO_WritePin:0000000000000000 HAL_GPIO_WritePin
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:830    .text.HAL_GPIO_WriteMultipleStatePin:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:836    .text.HAL_GPIO_WriteMultipleStatePin:0000000000000000 HAL_GPIO_WriteMultipleStatePin
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:860    .text.HAL_GPIO_TogglePin:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:866    .text.HAL_GPIO_TogglePin:0000000000000000 HAL_GPIO_TogglePin
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:896    .text.HAL_GPIO_LockPin:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:902    .text.HAL_GPIO_LockPin:0000000000000000 HAL_GPIO_LockPin
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:1064   .text.HAL_GPIO_LockPin:0000000000000074 $d
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:1070   .text.HAL_GPIO_EnableHighSPeedLowVoltage:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:1076   .text.HAL_GPIO_EnableHighSPeedLowVoltage:0000000000000000 HAL_GPIO_EnableHighSPeedLowVoltage
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:1212   .text.HAL_GPIO_EnableHighSPeedLowVoltage:000000000000004c $d
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:1218   .text.HAL_GPIO_DisableHighSPeedLowVoltage:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:1224   .text.HAL_GPIO_DisableHighSPeedLowVoltage:0000000000000000 HAL_GPIO_DisableHighSPeedLowVoltage
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:1359   .text.HAL_GPIO_DisableHighSPeedLowVoltage:000000000000004c $d
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:1365   .text.HAL_GPIO_EXTI_Rising_Callback:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:1371   .text.HAL_GPIO_EXTI_Rising_Callback:0000000000000000 HAL_GPIO_EXTI_Rising_Callback
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:1386   .text.HAL_GPIO_EXTI_Falling_Callback:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:1392   .text.HAL_GPIO_EXTI_Falling_Callback:0000000000000000 HAL_GPIO_EXTI_Falling_Callback
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:1407   .text.HAL_GPIO_EXTI_IRQHandler:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:1413   .text.HAL_GPIO_EXTI_IRQHandler:0000000000000000 HAL_GPIO_EXTI_IRQHandler
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:1468   .text.HAL_GPIO_EXTI_IRQHandler:000000000000002c $d
+C:\Users\soran\AppData\Local\Temp\ccCM9hkf.s:1473   .rodata.LPGPIO_Map:0000000000000000 $d
 
 NO UNDEFINED SYMBOLS

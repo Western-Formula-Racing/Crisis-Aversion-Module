@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 1
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 1
 
 
    1              		.cpu cortex-m33
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 1
   27:Src/stm32u5xx_hal_msp.c **** /* Private typedef -----------------------------------------------------------*/
   28:Src/stm32u5xx_hal_msp.c **** /* USER CODE BEGIN TD */
   29:Src/stm32u5xx_hal_msp.c **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 2
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 2
 
 
   30:Src/stm32u5xx_hal_msp.c **** /* USER CODE END TD */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 1
   44 0006 D3F89420 		ldr	r2, [r3, #148]
   45 000a 42F00402 		orr	r2, r2, #4
   46 000e C3F89420 		str	r2, [r3, #148]
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 3
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 3
 
 
   47              		.loc 1 69 3 view .LVU4
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 1
   87              		.cfi_offset 4, -12
   88              		.cfi_offset 5, -8
   89              		.cfi_offset 14, -4
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 4
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 4
 
 
   90 0002 BDB0     		sub	sp, sp, #244
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 1
  112:Src/stm32u5xx_hal_msp.c ****     PC3     ------> ADC1_IN4
  113:Src/stm32u5xx_hal_msp.c ****     PA2     ------> ADC1_IN7
  114:Src/stm32u5xx_hal_msp.c ****     PA3     ------> ADC1_IN8
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 5
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 5
 
 
  115:Src/stm32u5xx_hal_msp.c ****     PB0     ------> ADC1_IN15
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 1
  142 003c 0028     		cmp	r0, #0
  143 003e 4BD1     		bne	.L10
  144              	.L7:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 6
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 6
 
 
  104:Src/stm32u5xx_hal_msp.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 1
  183              		.loc 1 107 5 view .LVU42
  184 007e D3F88C20 		ldr	r2, [r3, #140]
  185 0082 02F00102 		and	r2, r2, #1
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 7
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 7
 
 
  186 0086 0292     		str	r2, [sp, #8]
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 1
  224              	.LVL8:
  122:Src/stm32u5xx_hal_msp.c ****     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
  225              		.loc 1 122 5 view .LVU59
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 8
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 8
 
 
  122:Src/stm32u5xx_hal_msp.c ****     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 1
  266 00e0 00800242 		.word	1107460096
  267 00e4 000C0246 		.word	1174539264
  268 00e8 00080242 		.word	1107429376
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 9
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 9
 
 
  269 00ec 00000242 		.word	1107427328
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 1
  161:Src/stm32u5xx_hal_msp.c ****     PB0     ------> ADC1_IN15
  162:Src/stm32u5xx_hal_msp.c ****     */
  163:Src/stm32u5xx_hal_msp.c ****     HAL_GPIO_DeInit(GPIOC, GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_3);
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 10
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 10
 
 
  164:Src/stm32u5xx_hal_msp.c **** 
@@ -595,38 +595,360 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 1
  337 0044 00040242 		.word	1107428352
  338              		.cfi_endproc
  339              	.LFE342:
- 341              		.text
- 342              	.Letext0:
- 343              		.file 2 "c:\\users\\soran\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 11
+ 341              		.section	.text.HAL_UART_MspInit,"ax",%progbits
+ 342              		.align	1
+ 343              		.global	HAL_UART_MspInit
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 11
 
 
- 344              		.file 3 "c:\\users\\soran\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
- 345              		.file 4 "Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u575xx.h"
- 346              		.file 5 "Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5xx.h"
- 347              		.file 6 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_def.h"
- 348              		.file 7 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc_ex.h"
- 349              		.file 8 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpio.h"
- 350              		.file 9 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_dma.h"
- 351              		.file 10 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_dma_ex.h"
- 352              		.file 11 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_adc.h"
- 353              		.file 12 "Inc/main.h"
- 354              		.file 13 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr_ex.h"
- 355              		.file 14 "<built-in>"
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s 			page 12
+ 344              		.syntax unified
+ 345              		.thumb
+ 346              		.thumb_func
+ 348              	HAL_UART_MspInit:
+ 349              	.LVL20:
+ 350              	.LFB343:
+ 175:Src/stm32u5xx_hal_msp.c **** 
+ 176:Src/stm32u5xx_hal_msp.c **** /**
+ 177:Src/stm32u5xx_hal_msp.c **** * @brief UART MSP Initialization
+ 178:Src/stm32u5xx_hal_msp.c **** * This function configures the hardware resources used in this example
+ 179:Src/stm32u5xx_hal_msp.c **** * @param huart: UART handle pointer
+ 180:Src/stm32u5xx_hal_msp.c **** * @retval None
+ 181:Src/stm32u5xx_hal_msp.c **** */
+ 182:Src/stm32u5xx_hal_msp.c **** void HAL_UART_MspInit(UART_HandleTypeDef* huart)
+ 183:Src/stm32u5xx_hal_msp.c **** {
+ 351              		.loc 1 183 1 is_stmt 1 view -0
+ 352              		.cfi_startproc
+ 353              		@ args = 0, pretend = 0, frame = 232
+ 354              		@ frame_needed = 0, uses_anonymous_args = 0
+ 355              		.loc 1 183 1 is_stmt 0 view .LVU88
+ 356 0000 10B5     		push	{r4, lr}
+ 357              		.cfi_def_cfa_offset 8
+ 358              		.cfi_offset 4, -8
+ 359              		.cfi_offset 14, -4
+ 360 0002 BAB0     		sub	sp, sp, #232
+ 361              		.cfi_def_cfa_offset 240
+ 362 0004 0446     		mov	r4, r0
+ 184:Src/stm32u5xx_hal_msp.c ****   GPIO_InitTypeDef GPIO_InitStruct = {0};
+ 363              		.loc 1 184 3 is_stmt 1 view .LVU89
+ 364              		.loc 1 184 20 is_stmt 0 view .LVU90
+ 365 0006 0021     		movs	r1, #0
+ 366 0008 3591     		str	r1, [sp, #212]
+ 367 000a 3691     		str	r1, [sp, #216]
+ 368 000c 3791     		str	r1, [sp, #220]
+ 369 000e 3891     		str	r1, [sp, #224]
+ 370 0010 3991     		str	r1, [sp, #228]
+ 185:Src/stm32u5xx_hal_msp.c ****   RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
+ 371              		.loc 1 185 3 is_stmt 1 view .LVU91
+ 372              		.loc 1 185 28 is_stmt 0 view .LVU92
+ 373 0012 C822     		movs	r2, #200
+ 374 0014 02A8     		add	r0, sp, #8
+ 375              	.LVL21:
+ 376              		.loc 1 185 28 view .LVU93
+ 377 0016 FFF7FEFF 		bl	memset
+ 378              	.LVL22:
+ 186:Src/stm32u5xx_hal_msp.c ****   if(huart->Instance==USART1)
+ 379              		.loc 1 186 3 is_stmt 1 view .LVU94
+ 380              		.loc 1 186 11 is_stmt 0 view .LVU95
+ 381 001a 2268     		ldr	r2, [r4]
+ 382              		.loc 1 186 5 view .LVU96
+ 383 001c 1B4B     		ldr	r3, .L25
+ 384 001e 9A42     		cmp	r2, r3
+ 385 0020 01D0     		beq	.L23
+ 386              	.L19:
+ 187:Src/stm32u5xx_hal_msp.c ****   {
+ 188:Src/stm32u5xx_hal_msp.c ****   /* USER CODE BEGIN USART1_MspInit 0 */
+ 189:Src/stm32u5xx_hal_msp.c **** 
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 12
+
+
+ 190:Src/stm32u5xx_hal_msp.c ****   /* USER CODE END USART1_MspInit 0 */
+ 191:Src/stm32u5xx_hal_msp.c **** 
+ 192:Src/stm32u5xx_hal_msp.c ****   /** Initializes the peripherals clock
+ 193:Src/stm32u5xx_hal_msp.c ****   */
+ 194:Src/stm32u5xx_hal_msp.c ****     PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_USART1;
+ 195:Src/stm32u5xx_hal_msp.c ****     PeriphClkInit.Usart1ClockSelection = RCC_USART1CLKSOURCE_PCLK2;
+ 196:Src/stm32u5xx_hal_msp.c ****     if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
+ 197:Src/stm32u5xx_hal_msp.c ****     {
+ 198:Src/stm32u5xx_hal_msp.c ****       Error_Handler();
+ 199:Src/stm32u5xx_hal_msp.c ****     }
+ 200:Src/stm32u5xx_hal_msp.c **** 
+ 201:Src/stm32u5xx_hal_msp.c ****     /* Peripheral clock enable */
+ 202:Src/stm32u5xx_hal_msp.c ****     __HAL_RCC_USART1_CLK_ENABLE();
+ 203:Src/stm32u5xx_hal_msp.c **** 
+ 204:Src/stm32u5xx_hal_msp.c ****     __HAL_RCC_GPIOA_CLK_ENABLE();
+ 205:Src/stm32u5xx_hal_msp.c ****     /**USART1 GPIO Configuration
+ 206:Src/stm32u5xx_hal_msp.c ****     PA9     ------> USART1_TX
+ 207:Src/stm32u5xx_hal_msp.c ****     PA10     ------> USART1_RX
+ 208:Src/stm32u5xx_hal_msp.c ****     */
+ 209:Src/stm32u5xx_hal_msp.c ****     GPIO_InitStruct.Pin = GPIO_PIN_9|GPIO_PIN_10;
+ 210:Src/stm32u5xx_hal_msp.c ****     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+ 211:Src/stm32u5xx_hal_msp.c ****     GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 212:Src/stm32u5xx_hal_msp.c ****     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+ 213:Src/stm32u5xx_hal_msp.c ****     GPIO_InitStruct.Alternate = GPIO_AF7_USART1;
+ 214:Src/stm32u5xx_hal_msp.c ****     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+ 215:Src/stm32u5xx_hal_msp.c **** 
+ 216:Src/stm32u5xx_hal_msp.c ****   /* USER CODE BEGIN USART1_MspInit 1 */
+ 217:Src/stm32u5xx_hal_msp.c **** 
+ 218:Src/stm32u5xx_hal_msp.c ****   /* USER CODE END USART1_MspInit 1 */
+ 219:Src/stm32u5xx_hal_msp.c ****   }
+ 220:Src/stm32u5xx_hal_msp.c **** 
+ 221:Src/stm32u5xx_hal_msp.c **** }
+ 387              		.loc 1 221 1 view .LVU97
+ 388 0022 3AB0     		add	sp, sp, #232
+ 389              		.cfi_remember_state
+ 390              		.cfi_def_cfa_offset 8
+ 391              		@ sp needed
+ 392 0024 10BD     		pop	{r4, pc}
+ 393              	.LVL23:
+ 394              	.L23:
+ 395              		.cfi_restore_state
+ 194:Src/stm32u5xx_hal_msp.c ****     PeriphClkInit.Usart1ClockSelection = RCC_USART1CLKSOURCE_PCLK2;
+ 396              		.loc 1 194 5 is_stmt 1 view .LVU98
+ 194:Src/stm32u5xx_hal_msp.c ****     PeriphClkInit.Usart1ClockSelection = RCC_USART1CLKSOURCE_PCLK2;
+ 397              		.loc 1 194 40 is_stmt 0 view .LVU99
+ 398 0026 0122     		movs	r2, #1
+ 399 0028 0023     		movs	r3, #0
+ 400 002a CDE90223 		strd	r2, [sp, #8]
+ 195:Src/stm32u5xx_hal_msp.c ****     if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
+ 401              		.loc 1 195 5 is_stmt 1 view .LVU100
+ 196:Src/stm32u5xx_hal_msp.c ****     {
+ 402              		.loc 1 196 5 view .LVU101
+ 196:Src/stm32u5xx_hal_msp.c ****     {
+ 403              		.loc 1 196 9 is_stmt 0 view .LVU102
+ 404 002e 02A8     		add	r0, sp, #8
+ 405 0030 FFF7FEFF 		bl	HAL_RCCEx_PeriphCLKConfig
+ 406              	.LVL24:
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 13
+
+
+ 196:Src/stm32u5xx_hal_msp.c ****     {
+ 407              		.loc 1 196 8 view .LVU103
+ 408 0034 38BB     		cbnz	r0, .L24
+ 409              	.L21:
+ 202:Src/stm32u5xx_hal_msp.c **** 
+ 410              		.loc 1 202 5 is_stmt 1 view .LVU104
+ 411              	.LBB7:
+ 202:Src/stm32u5xx_hal_msp.c **** 
+ 412              		.loc 1 202 5 view .LVU105
+ 202:Src/stm32u5xx_hal_msp.c **** 
+ 413              		.loc 1 202 5 view .LVU106
+ 414 0036 164B     		ldr	r3, .L25+4
+ 415 0038 D3F8A420 		ldr	r2, [r3, #164]
+ 416 003c 42F48042 		orr	r2, r2, #16384
+ 417 0040 C3F8A420 		str	r2, [r3, #164]
+ 202:Src/stm32u5xx_hal_msp.c **** 
+ 418              		.loc 1 202 5 view .LVU107
+ 419 0044 D3F8A420 		ldr	r2, [r3, #164]
+ 420 0048 02F48042 		and	r2, r2, #16384
+ 421 004c 0092     		str	r2, [sp]
+ 202:Src/stm32u5xx_hal_msp.c **** 
+ 422              		.loc 1 202 5 view .LVU108
+ 423 004e 009A     		ldr	r2, [sp]
+ 424              	.LBE7:
+ 202:Src/stm32u5xx_hal_msp.c **** 
+ 425              		.loc 1 202 5 view .LVU109
+ 204:Src/stm32u5xx_hal_msp.c ****     /**USART1 GPIO Configuration
+ 426              		.loc 1 204 5 view .LVU110
+ 427              	.LBB8:
+ 204:Src/stm32u5xx_hal_msp.c ****     /**USART1 GPIO Configuration
+ 428              		.loc 1 204 5 view .LVU111
+ 204:Src/stm32u5xx_hal_msp.c ****     /**USART1 GPIO Configuration
+ 429              		.loc 1 204 5 view .LVU112
+ 430 0050 D3F88C20 		ldr	r2, [r3, #140]
+ 431 0054 42F00102 		orr	r2, r2, #1
+ 432 0058 C3F88C20 		str	r2, [r3, #140]
+ 204:Src/stm32u5xx_hal_msp.c ****     /**USART1 GPIO Configuration
+ 433              		.loc 1 204 5 view .LVU113
+ 434 005c D3F88C30 		ldr	r3, [r3, #140]
+ 435 0060 03F00103 		and	r3, r3, #1
+ 436 0064 0193     		str	r3, [sp, #4]
+ 204:Src/stm32u5xx_hal_msp.c ****     /**USART1 GPIO Configuration
+ 437              		.loc 1 204 5 view .LVU114
+ 438 0066 019B     		ldr	r3, [sp, #4]
+ 439              	.LBE8:
+ 204:Src/stm32u5xx_hal_msp.c ****     /**USART1 GPIO Configuration
+ 440              		.loc 1 204 5 view .LVU115
+ 209:Src/stm32u5xx_hal_msp.c ****     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+ 441              		.loc 1 209 5 view .LVU116
+ 209:Src/stm32u5xx_hal_msp.c ****     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+ 442              		.loc 1 209 25 is_stmt 0 view .LVU117
+ 443 0068 4FF4C063 		mov	r3, #1536
+ 444 006c 3593     		str	r3, [sp, #212]
+ 210:Src/stm32u5xx_hal_msp.c ****     GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 445              		.loc 1 210 5 is_stmt 1 view .LVU118
+ 210:Src/stm32u5xx_hal_msp.c ****     GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 446              		.loc 1 210 26 is_stmt 0 view .LVU119
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 14
+
+
+ 447 006e 0223     		movs	r3, #2
+ 448 0070 3693     		str	r3, [sp, #216]
+ 211:Src/stm32u5xx_hal_msp.c ****     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+ 449              		.loc 1 211 5 is_stmt 1 view .LVU120
+ 211:Src/stm32u5xx_hal_msp.c ****     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+ 450              		.loc 1 211 26 is_stmt 0 view .LVU121
+ 451 0072 0023     		movs	r3, #0
+ 452 0074 3793     		str	r3, [sp, #220]
+ 212:Src/stm32u5xx_hal_msp.c ****     GPIO_InitStruct.Alternate = GPIO_AF7_USART1;
+ 453              		.loc 1 212 5 is_stmt 1 view .LVU122
+ 212:Src/stm32u5xx_hal_msp.c ****     GPIO_InitStruct.Alternate = GPIO_AF7_USART1;
+ 454              		.loc 1 212 27 is_stmt 0 view .LVU123
+ 455 0076 3893     		str	r3, [sp, #224]
+ 213:Src/stm32u5xx_hal_msp.c ****     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+ 456              		.loc 1 213 5 is_stmt 1 view .LVU124
+ 213:Src/stm32u5xx_hal_msp.c ****     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+ 457              		.loc 1 213 31 is_stmt 0 view .LVU125
+ 458 0078 0723     		movs	r3, #7
+ 459 007a 3993     		str	r3, [sp, #228]
+ 214:Src/stm32u5xx_hal_msp.c **** 
+ 460              		.loc 1 214 5 is_stmt 1 view .LVU126
+ 461 007c 35A9     		add	r1, sp, #212
+ 462 007e 0548     		ldr	r0, .L25+8
+ 463 0080 FFF7FEFF 		bl	HAL_GPIO_Init
+ 464              	.LVL25:
+ 465              		.loc 1 221 1 is_stmt 0 view .LVU127
+ 466 0084 CDE7     		b	.L19
+ 467              	.L24:
+ 198:Src/stm32u5xx_hal_msp.c ****     }
+ 468              		.loc 1 198 7 is_stmt 1 view .LVU128
+ 469 0086 FFF7FEFF 		bl	Error_Handler
+ 470              	.LVL26:
+ 471 008a D4E7     		b	.L21
+ 472              	.L26:
+ 473              		.align	2
+ 474              	.L25:
+ 475 008c 00380140 		.word	1073821696
+ 476 0090 000C0246 		.word	1174539264
+ 477 0094 00000242 		.word	1107427328
+ 478              		.cfi_endproc
+ 479              	.LFE343:
+ 481              		.section	.text.HAL_UART_MspDeInit,"ax",%progbits
+ 482              		.align	1
+ 483              		.global	HAL_UART_MspDeInit
+ 484              		.syntax unified
+ 485              		.thumb
+ 486              		.thumb_func
+ 488              	HAL_UART_MspDeInit:
+ 489              	.LVL27:
+ 490              	.LFB344:
+ 222:Src/stm32u5xx_hal_msp.c **** 
+ 223:Src/stm32u5xx_hal_msp.c **** /**
+ 224:Src/stm32u5xx_hal_msp.c **** * @brief UART MSP De-Initialization
+ 225:Src/stm32u5xx_hal_msp.c **** * This function freeze the hardware resources used in this example
+ 226:Src/stm32u5xx_hal_msp.c **** * @param huart: UART handle pointer
+ 227:Src/stm32u5xx_hal_msp.c **** * @retval None
+ 228:Src/stm32u5xx_hal_msp.c **** */
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 15
+
+
+ 229:Src/stm32u5xx_hal_msp.c **** void HAL_UART_MspDeInit(UART_HandleTypeDef* huart)
+ 230:Src/stm32u5xx_hal_msp.c **** {
+ 491              		.loc 1 230 1 view -0
+ 492              		.cfi_startproc
+ 493              		@ args = 0, pretend = 0, frame = 0
+ 494              		@ frame_needed = 0, uses_anonymous_args = 0
+ 495              		.loc 1 230 1 is_stmt 0 view .LVU130
+ 496 0000 08B5     		push	{r3, lr}
+ 497              		.cfi_def_cfa_offset 8
+ 498              		.cfi_offset 3, -8
+ 499              		.cfi_offset 14, -4
+ 231:Src/stm32u5xx_hal_msp.c ****   if(huart->Instance==USART1)
+ 500              		.loc 1 231 3 is_stmt 1 view .LVU131
+ 501              		.loc 1 231 11 is_stmt 0 view .LVU132
+ 502 0002 0268     		ldr	r2, [r0]
+ 503              		.loc 1 231 5 view .LVU133
+ 504 0004 084B     		ldr	r3, .L31
+ 505 0006 9A42     		cmp	r2, r3
+ 506 0008 00D0     		beq	.L30
+ 507              	.LVL28:
+ 508              	.L27:
+ 232:Src/stm32u5xx_hal_msp.c ****   {
+ 233:Src/stm32u5xx_hal_msp.c ****   /* USER CODE BEGIN USART1_MspDeInit 0 */
+ 234:Src/stm32u5xx_hal_msp.c **** 
+ 235:Src/stm32u5xx_hal_msp.c ****   /* USER CODE END USART1_MspDeInit 0 */
+ 236:Src/stm32u5xx_hal_msp.c ****     /* Peripheral clock disable */
+ 237:Src/stm32u5xx_hal_msp.c ****     __HAL_RCC_USART1_CLK_DISABLE();
+ 238:Src/stm32u5xx_hal_msp.c **** 
+ 239:Src/stm32u5xx_hal_msp.c ****     /**USART1 GPIO Configuration
+ 240:Src/stm32u5xx_hal_msp.c ****     PA9     ------> USART1_TX
+ 241:Src/stm32u5xx_hal_msp.c ****     PA10     ------> USART1_RX
+ 242:Src/stm32u5xx_hal_msp.c ****     */
+ 243:Src/stm32u5xx_hal_msp.c ****     HAL_GPIO_DeInit(GPIOA, GPIO_PIN_9|GPIO_PIN_10);
+ 244:Src/stm32u5xx_hal_msp.c **** 
+ 245:Src/stm32u5xx_hal_msp.c ****   /* USER CODE BEGIN USART1_MspDeInit 1 */
+ 246:Src/stm32u5xx_hal_msp.c **** 
+ 247:Src/stm32u5xx_hal_msp.c ****   /* USER CODE END USART1_MspDeInit 1 */
+ 248:Src/stm32u5xx_hal_msp.c ****   }
+ 249:Src/stm32u5xx_hal_msp.c **** 
+ 250:Src/stm32u5xx_hal_msp.c **** }
+ 509              		.loc 1 250 1 view .LVU134
+ 510 000a 08BD     		pop	{r3, pc}
+ 511              	.LVL29:
+ 512              	.L30:
+ 237:Src/stm32u5xx_hal_msp.c **** 
+ 513              		.loc 1 237 5 is_stmt 1 view .LVU135
+ 514 000c 074A     		ldr	r2, .L31+4
+ 515 000e D2F8A430 		ldr	r3, [r2, #164]
+ 516 0012 23F48043 		bic	r3, r3, #16384
+ 517 0016 C2F8A430 		str	r3, [r2, #164]
+ 243:Src/stm32u5xx_hal_msp.c **** 
+ 518              		.loc 1 243 5 view .LVU136
+ 519 001a 4FF4C061 		mov	r1, #1536
+ 520 001e 0448     		ldr	r0, .L31+8
+ 521              	.LVL30:
+ 243:Src/stm32u5xx_hal_msp.c **** 
+ 522              		.loc 1 243 5 is_stmt 0 view .LVU137
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 16
+
+
+ 523 0020 FFF7FEFF 		bl	HAL_GPIO_DeInit
+ 524              	.LVL31:
+ 525              		.loc 1 250 1 view .LVU138
+ 526 0024 F1E7     		b	.L27
+ 527              	.L32:
+ 528 0026 00BF     		.align	2
+ 529              	.L31:
+ 530 0028 00380140 		.word	1073821696
+ 531 002c 000C0246 		.word	1174539264
+ 532 0030 00000242 		.word	1107427328
+ 533              		.cfi_endproc
+ 534              	.LFE344:
+ 536              		.text
+ 537              	.Letext0:
+ 538              		.file 2 "c:\\users\\soran\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
+ 539              		.file 3 "c:\\users\\soran\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
+ 540              		.file 4 "Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u575xx.h"
+ 541              		.file 5 "Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u5xx.h"
+ 542              		.file 6 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_def.h"
+ 543              		.file 7 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_rcc_ex.h"
+ 544              		.file 8 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpio.h"
+ 545              		.file 9 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_dma.h"
+ 546              		.file 10 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_dma_ex.h"
+ 547              		.file 11 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_adc.h"
+ 548              		.file 12 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart.h"
+ 549              		.file 13 "Inc/main.h"
+ 550              		.file 14 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr_ex.h"
+ 551              		.file 15 "<built-in>"
+ARM GAS  C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s 			page 17
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32u5xx_hal_msp.c
-C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s:22     .text.HAL_MspInit:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s:28     .text.HAL_MspInit:0000000000000000 HAL_MspInit
-C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s:66     .text.HAL_MspInit:0000000000000028 $d
-C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s:71     .text.HAL_ADC_MspInit:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s:77     .text.HAL_ADC_MspInit:0000000000000000 HAL_ADC_MspInit
-C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s:266    .text.HAL_ADC_MspInit:00000000000000e0 $d
-C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s:275    .text.HAL_ADC_MspDeInit:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s:281    .text.HAL_ADC_MspDeInit:0000000000000000 HAL_ADC_MspDeInit
-C:\Users\soran\AppData\Local\Temp\ccyU1ybI.s:333    .text.HAL_ADC_MspDeInit:0000000000000034 $d
+C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s:22     .text.HAL_MspInit:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s:28     .text.HAL_MspInit:0000000000000000 HAL_MspInit
+C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s:66     .text.HAL_MspInit:0000000000000028 $d
+C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s:71     .text.HAL_ADC_MspInit:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s:77     .text.HAL_ADC_MspInit:0000000000000000 HAL_ADC_MspInit
+C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s:266    .text.HAL_ADC_MspInit:00000000000000e0 $d
+C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s:275    .text.HAL_ADC_MspDeInit:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s:281    .text.HAL_ADC_MspDeInit:0000000000000000 HAL_ADC_MspDeInit
+C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s:333    .text.HAL_ADC_MspDeInit:0000000000000034 $d
+C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s:342    .text.HAL_UART_MspInit:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s:348    .text.HAL_UART_MspInit:0000000000000000 HAL_UART_MspInit
+C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s:475    .text.HAL_UART_MspInit:000000000000008c $d
+C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s:482    .text.HAL_UART_MspDeInit:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s:488    .text.HAL_UART_MspDeInit:0000000000000000 HAL_UART_MspDeInit
+C:\Users\soran\AppData\Local\Temp\cc7BmlOJ.s:530    .text.HAL_UART_MspDeInit:0000000000000028 $d
 
 UNDEFINED SYMBOLS
 HAL_PWREx_EnableVddA

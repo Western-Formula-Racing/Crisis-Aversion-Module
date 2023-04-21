@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 1
 
 
    1              		.cpu cortex-m33
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
   27:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   [..]
   28:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****    (#) The Power control (PWR) provides an overview of the supply architecture
   29:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****        for the different power domains and of the supply configuration
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 2
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 2
 
 
   30:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****        controller.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
   84:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****        Wake-up from Sleep mode could be following to an event or an
   85:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****        interrupt according to low power mode intrinsic request called (__WFI()
   86:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****        or __WFE()).
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 3
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 3
 
 
   87:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  141:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c **** /* Private define ------------------------------------------------------------*/
  142:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c **** 
  143:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c **** /** @defgroup PWR_Private_Defines PWR Private Defines
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 4
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 4
 
 
  144:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   * @{
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  198:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   * @note   This functionality is not available in this product.
  199:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   *         The prototype is kept just to maintain compatibility with other
  200:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   *         products.
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 5
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 5
 
 
  201:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   * @retval None.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
   69              		.align	1
   70              		.global	HAL_PWR_DisableBkUpAccess
   71              		.syntax unified
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 6
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 6
 
 
   72              		.thumb
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  242:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****     [..]
  243:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****       This section provides functions allowing to control power peripheral.
  244:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 7
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 7
 
 
  245:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****     *** PVD configuration ***
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  299:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c **** 
  300:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****           (++) PWR_SLEEPENTRY_WFI: enter Sleep mode with WFI instruction.
  301:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****           (++) PWR_SLEEPENTRY_WFE: enter Sleep mode with WFE instruction.
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 8
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 8
 
 
  302:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  356:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****       After entering Standby mode, SRAMs and register contents are lost except
  357:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****       for registers and backup SRAM in the Backup domain and Standby circuitry.
  358:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****       Optionally, the full SRAM2 or 8 Kbytes or 56 Kbytes can be retained in
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 9
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 9
 
 
  359:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****       Standby mode, supplied by the low-power regulator (Standby with RAM2
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  118              		.loc 1 400 3 view .LVU13
  119 0006 2549     		ldr	r1, .L15
  120 0008 0B69     		ldr	r3, [r1, #16]
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 10
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 10
 
 
  121 000a 23F0E003 		bic	r3, r3, #224
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  160 0056 13F0080F 		tst	r3, #8
  161 005a 06D0     		beq	.L11
  416:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   {
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 11
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 11
 
 
  417:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****     __HAL_PWR_PVD_EXTI_ENABLE_EVENT();
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  199 0092 0120     		movs	r0, #1
  200              	.LVL4:
  392:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   }
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 12
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 12
 
 
  201              		.loc 1 392 12 view .LVU38
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  248              		.thumb
  249              		.thumb_func
  251              	HAL_PWR_DisablePVD:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 13
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 13
 
 
  252              	.LFB345:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  469:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   */
  470:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c **** void HAL_PWR_EnableWakeUpPin(uint32_t WakeUpPin)
  471:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c **** {
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 14
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 14
 
 
  282              		.loc 1 471 1 is_stmt 1 view -0
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
   28:Drivers/CMSIS/Include/cmsis_gcc.h **** /* ignore some GCC warnings */
   29:Drivers/CMSIS/Include/cmsis_gcc.h **** #pragma GCC diagnostic push
   30:Drivers/CMSIS/Include/cmsis_gcc.h **** #pragma GCC diagnostic ignored "-Wsign-conversion"
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 15
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 15
 
 
   31:Drivers/CMSIS/Include/cmsis_gcc.h **** #pragma GCC diagnostic ignored "-Wconversion"
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
   85:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
   86:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __UNALIGNED_UINT16_READ
   87:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic push
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 16
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 16
 
 
   88:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wpacked"
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  142:Drivers/CMSIS/Include/cmsis_gcc.h ****     uint32_t* dest;
  143:Drivers/CMSIS/Include/cmsis_gcc.h ****     uint32_t  wlen;
  144:Drivers/CMSIS/Include/cmsis_gcc.h ****   } __zero_table_t;
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 17
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 17
 
 
  145:Drivers/CMSIS/Include/cmsis_gcc.h ****   
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  199:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  200:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  201:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 18
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 18
 
 
  202:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  256:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Control Register (non-secure)
  257:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Writes the given value to the non-secure Control Register when in secure state.
  258:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    control  Control Register value to set
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 19
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 19
 
 
  259:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  313:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  314:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __get_PSP(void)
  315:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 20
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 20
 
 
  316:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  370:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
  371:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  372:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, msp" : "=r" (result) );
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 21
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 21
 
 
  373:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  427:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, sp_ns" : "=r" (result) );
  428:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
  429:Drivers/CMSIS/Include/cmsis_gcc.h **** }
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 22
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 22
 
 
  430:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  484:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  485:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (defined (__ARM_FEATURE_CMSE ) && (__ARM_FEATURE_CMSE == 3))
  486:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 23
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 23
 
 
  487:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Priority Mask (non-secure)
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  541:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               Base Priority register value
  542:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  543:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __TZ_get_BASEPRI_NS(void)
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 24
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 24
 
 
  544:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  598:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, faultmask" : "=r" (result) );
  599:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
  600:Drivers/CMSIS/Include/cmsis_gcc.h **** }
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 25
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 25
 
 
  601:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  655:Drivers/CMSIS/Include/cmsis_gcc.h ****   
  656:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the current value of the Process Stack Pointer Limit (PSPLIM).
  657:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               PSPLIM Register value
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 26
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 26
 
 
  658:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  712:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  713:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  714:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 27
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 27
 
 
  715:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  769:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __TZ_get_MSPLIM_NS(void)
  770:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  771:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (!(defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)))
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 28
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 28
 
 
  772:Drivers/CMSIS/Include/cmsis_gcc.h ****   // without main extensions, the non-secure MSPLIM is RAZ/WI
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  826:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  827:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  828:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 29
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 29
 
 
  829:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get FPSCR
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  883:Drivers/CMSIS/Include/cmsis_gcc.h ****   @{
  884:Drivers/CMSIS/Include/cmsis_gcc.h **** */
  885:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 30
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 30
 
 
  886:Drivers/CMSIS/Include/cmsis_gcc.h **** /* Define macros for porting to both thumb1 and thumb2.
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  940:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Data Synchronization Barrier
  941:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Acts as a special kind of Data Memory Barrier.
  942:Drivers/CMSIS/Include/cmsis_gcc.h ****            It completes when all explicit memory accesses before this instruction complete.
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 31
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 31
 
 
  943:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  997:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Reverses the byte order in a 16-bit value and returns the signed 16-bit result. For exam
  998:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    value  Value to reverse
  999:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               Reversed value
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 32
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 32
 
 
 1000:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
 1051:Drivers/CMSIS/Include/cmsis_gcc.h **** 
 1052:Drivers/CMSIS/Include/cmsis_gcc.h **** #if ((defined (__ARM_ARCH_7M__      ) && (__ARM_ARCH_7M__      == 1)) || \
 1053:Drivers/CMSIS/Include/cmsis_gcc.h ****      (defined (__ARM_ARCH_7EM__     ) && (__ARM_ARCH_7EM__     == 1)) || \
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 33
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 33
 
 
 1054:Drivers/CMSIS/Include/cmsis_gcc.h ****      (defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1))    )
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  322 0016 83B1     		cbz	r3, .L25
 1090:Drivers/CMSIS/Include/cmsis_gcc.h ****   {
 1091:Drivers/CMSIS/Include/cmsis_gcc.h ****     return 32U;
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 34
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 34
 
 
 1092:Drivers/CMSIS/Include/cmsis_gcc.h ****   }
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  369              		.thumb
  370              		.thumb_func
  372              	HAL_PWR_DisableWakeUpPin:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 35
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 35
 
 
  373              	.LVL12:
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  405              	HAL_PWR_EnterSLEEPMode:
  406              	.LVL14:
  407              	.LFB348:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 36
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 36
 
 
  509:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c **** 
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  547:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****     /* Wait For Interrupt Request */
  548:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****     __WFI();
  549:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   }
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 37
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 37
 
 
  550:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   else
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  562:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   *         allowing a very fast wakeup time but with much higher consumption
  563:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   *         comparing to other Stop modes.
  564:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   * @note   Stop 0 offers the largest number of active peripherals and wakeup
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 38
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 38
 
 
  565:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   *         sources, a smaller wakeup time but a higher consumption.
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  602:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   /* Select Stop mode entry */
  603:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   if (StopEntry == PWR_STOPENTRY_WFI)
  484              		.loc 1 603 3 view .LVU89
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 39
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 39
 
 
  485              		.loc 1 603 6 is_stmt 0 view .LVU90
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  523 0030 00080246 		.word	1174538240
  524 0034 00ED00E0 		.word	-536810240
  525              		.cfi_endproc
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 40
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 40
 
 
  526              	.LFE349:
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  648:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   __force_stores();
  649:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c **** #endif /*( __CC_ARM)*/
  650:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 41
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 41
 
 
  651:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   /* Wait For Interrupt Request */
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  591              	.L48:
  592              		.align	2
  593              	.L47:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 42
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 42
 
 
  594 000c 00ED00E0 		.word	-536810240
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  686:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   *         pending event / interrupt even if it's disabled or has insufficient
  687:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   *         priority to cause exception entry wakes up the Cortex-M33.
  688:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   * @retval None.
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 43
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 43
 
 
  689:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   */
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  673              		.loc 1 706 1 is_stmt 0 view .LVU113
  674 000a 7047     		bx	lr
  675              	.L57:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 44
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 44
 
 
  676              		.align	2
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  743:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c **** }
  696              		.loc 1 743 1 view .LVU115
  697 0000 7047     		bx	lr
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 45
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 45
 
 
  698              		.cfi_endproc
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  742              		.loc 1 726 5 is_stmt 1 view .LVU127
  743 0012 FFF7FEFF 		bl	HAL_PWR_PVDCallback
  744              	.LVL21:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 46
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 46
 
 
  729:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****     WRITE_REG(EXTI->FPR1, PWR_EXTI_LINE_PVD);
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  772:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****            pull-down configuration in Standby mode is secure.
  773:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****       (++) The UCPD1 is secure in the GTZC: the PWR_UCPDR register is secure.
  774:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c **** 
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 47
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 47
 
 
  775:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****       A non-secure access to a secure-protected register bit is denied :
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  829:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   *                      This parameter can be a combination of @ref PWR_Items.
  830:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   * @param  Attributes : Specifies the available attribute(s).
  831:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   *                      This parameter can be one of @ref PWR_Attributes.
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 48
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 48
 
 
  832:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   * @retval None.
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  779              		.loc 1 876 6 is_stmt 0 view .LVU136
  780 0000 11F0100F 		tst	r1, #16
  781 0004 08D0     		beq	.L65
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 49
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 49
 
 
  877:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   {
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  893:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   * @param  Item        : Specifies the item(s) to get attributes of.
  894:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   *                       This parameter can be one of @ref PWR_Items.
  895:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   * @param  pAttributes : Pointer to return attribute(s).
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 50
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 50
 
 
  896:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   *                       Returned value could be one of @ref PWR_Attributes.
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  929:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   /* return value */
  930:Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c ****   *pAttributes = attributes;
  842              		.loc 1 930 3 is_stmt 1 discriminator 4 view .LVU151
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 51
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 51
 
 
  843              		.loc 1 930 16 is_stmt 0 discriminator 4 view .LVU152
@@ -3039,67 +3039,67 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 1
  874              		.file 6 "Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u575xx.h"
  875              		.file 7 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_def.h"
  876              		.file 8 "Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr.h"
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 52
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 52
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32u5xx_hal_pwr.c
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:22     .text.HAL_PWR_DeInit:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:28     .text.HAL_PWR_DeInit:0000000000000000 HAL_PWR_DeInit
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:41     .text.HAL_PWR_EnableBkUpAccess:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:47     .text.HAL_PWR_EnableBkUpAccess:0000000000000000 HAL_PWR_EnableBkUpAccess
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:64     .text.HAL_PWR_EnableBkUpAccess:000000000000000c $d
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:69     .text.HAL_PWR_DisableBkUpAccess:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:75     .text.HAL_PWR_DisableBkUpAccess:0000000000000000 HAL_PWR_DisableBkUpAccess
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:92     .text.HAL_PWR_DisableBkUpAccess:000000000000000c $d
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:97     .text.HAL_PWR_ConfigPVD:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:103    .text.HAL_PWR_ConfigPVD:0000000000000000 HAL_PWR_ConfigPVD
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:211    .text.HAL_PWR_ConfigPVD:000000000000009c $d
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:217    .text.HAL_PWR_EnablePVD:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:223    .text.HAL_PWR_EnablePVD:0000000000000000 HAL_PWR_EnablePVD
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:240    .text.HAL_PWR_EnablePVD:000000000000000c $d
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:245    .text.HAL_PWR_DisablePVD:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:251    .text.HAL_PWR_DisablePVD:0000000000000000 HAL_PWR_DisablePVD
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:268    .text.HAL_PWR_DisablePVD:000000000000000c $d
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:273    .text.HAL_PWR_EnableWakeUpPin:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:279    .text.HAL_PWR_EnableWakeUpPin:0000000000000000 HAL_PWR_EnableWakeUpPin
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:359    .text.HAL_PWR_EnableWakeUpPin:0000000000000040 $d
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:366    .text.HAL_PWR_DisableWakeUpPin:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:372    .text.HAL_PWR_DisableWakeUpPin:0000000000000000 HAL_PWR_DisableWakeUpPin
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:394    .text.HAL_PWR_DisableWakeUpPin:0000000000000010 $d
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:399    .text.HAL_PWR_EnterSLEEPMode:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:405    .text.HAL_PWR_EnterSLEEPMode:0000000000000000 HAL_PWR_EnterSLEEPMode
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:453    .text.HAL_PWR_EnterSLEEPMode:000000000000001c $d
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:458    .text.HAL_PWR_EnterSTOPMode:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:464    .text.HAL_PWR_EnterSTOPMode:0000000000000000 HAL_PWR_EnterSTOPMode
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:523    .text.HAL_PWR_EnterSTOPMode:0000000000000030 $d
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:529    .text.HAL_PWR_EnterSTANDBYMode:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:535    .text.HAL_PWR_EnterSTANDBYMode:0000000000000000 HAL_PWR_EnterSTANDBYMode
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:565    .text.HAL_PWR_EnterSTANDBYMode:000000000000001c $d
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:571    .text.HAL_PWR_EnableSleepOnExit:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:577    .text.HAL_PWR_EnableSleepOnExit:0000000000000000 HAL_PWR_EnableSleepOnExit
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:594    .text.HAL_PWR_EnableSleepOnExit:000000000000000c $d
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:599    .text.HAL_PWR_DisableSleepOnExit:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:605    .text.HAL_PWR_DisableSleepOnExit:0000000000000000 HAL_PWR_DisableSleepOnExit
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:622    .text.HAL_PWR_DisableSleepOnExit:000000000000000c $d
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:627    .text.HAL_PWR_EnableSEVOnPend:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:633    .text.HAL_PWR_EnableSEVOnPend:0000000000000000 HAL_PWR_EnableSEVOnPend
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:650    .text.HAL_PWR_EnableSEVOnPend:000000000000000c $d
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:655    .text.HAL_PWR_DisableSEVOnPend:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:661    .text.HAL_PWR_DisableSEVOnPend:0000000000000000 HAL_PWR_DisableSEVOnPend
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:678    .text.HAL_PWR_DisableSEVOnPend:000000000000000c $d
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:683    .text.HAL_PWR_PVDCallback:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:689    .text.HAL_PWR_PVDCallback:0000000000000000 HAL_PWR_PVDCallback
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:702    .text.HAL_PWR_PVD_IRQHandler:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:708    .text.HAL_PWR_PVD_IRQHandler:0000000000000000 HAL_PWR_PVD_IRQHandler
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:756    .text.HAL_PWR_PVD_IRQHandler:0000000000000024 $d
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:761    .text.HAL_PWR_ConfigAttributes:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:767    .text.HAL_PWR_ConfigAttributes:0000000000000000 HAL_PWR_ConfigAttributes
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:807    .text.HAL_PWR_ConfigAttributes:0000000000000028 $d
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:812    .text.HAL_PWR_GetConfigAttributes:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:818    .text.HAL_PWR_GetConfigAttributes:0000000000000000 HAL_PWR_GetConfigAttributes
-C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s:865    .text.HAL_PWR_GetConfigAttributes:0000000000000020 $d
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccpQR3Li.s 			page 53
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:22     .text.HAL_PWR_DeInit:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:28     .text.HAL_PWR_DeInit:0000000000000000 HAL_PWR_DeInit
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:41     .text.HAL_PWR_EnableBkUpAccess:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:47     .text.HAL_PWR_EnableBkUpAccess:0000000000000000 HAL_PWR_EnableBkUpAccess
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:64     .text.HAL_PWR_EnableBkUpAccess:000000000000000c $d
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:69     .text.HAL_PWR_DisableBkUpAccess:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:75     .text.HAL_PWR_DisableBkUpAccess:0000000000000000 HAL_PWR_DisableBkUpAccess
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:92     .text.HAL_PWR_DisableBkUpAccess:000000000000000c $d
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:97     .text.HAL_PWR_ConfigPVD:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:103    .text.HAL_PWR_ConfigPVD:0000000000000000 HAL_PWR_ConfigPVD
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:211    .text.HAL_PWR_ConfigPVD:000000000000009c $d
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:217    .text.HAL_PWR_EnablePVD:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:223    .text.HAL_PWR_EnablePVD:0000000000000000 HAL_PWR_EnablePVD
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:240    .text.HAL_PWR_EnablePVD:000000000000000c $d
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:245    .text.HAL_PWR_DisablePVD:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:251    .text.HAL_PWR_DisablePVD:0000000000000000 HAL_PWR_DisablePVD
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:268    .text.HAL_PWR_DisablePVD:000000000000000c $d
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:273    .text.HAL_PWR_EnableWakeUpPin:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:279    .text.HAL_PWR_EnableWakeUpPin:0000000000000000 HAL_PWR_EnableWakeUpPin
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:359    .text.HAL_PWR_EnableWakeUpPin:0000000000000040 $d
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:366    .text.HAL_PWR_DisableWakeUpPin:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:372    .text.HAL_PWR_DisableWakeUpPin:0000000000000000 HAL_PWR_DisableWakeUpPin
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:394    .text.HAL_PWR_DisableWakeUpPin:0000000000000010 $d
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:399    .text.HAL_PWR_EnterSLEEPMode:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:405    .text.HAL_PWR_EnterSLEEPMode:0000000000000000 HAL_PWR_EnterSLEEPMode
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:453    .text.HAL_PWR_EnterSLEEPMode:000000000000001c $d
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:458    .text.HAL_PWR_EnterSTOPMode:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:464    .text.HAL_PWR_EnterSTOPMode:0000000000000000 HAL_PWR_EnterSTOPMode
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:523    .text.HAL_PWR_EnterSTOPMode:0000000000000030 $d
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:529    .text.HAL_PWR_EnterSTANDBYMode:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:535    .text.HAL_PWR_EnterSTANDBYMode:0000000000000000 HAL_PWR_EnterSTANDBYMode
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:565    .text.HAL_PWR_EnterSTANDBYMode:000000000000001c $d
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:571    .text.HAL_PWR_EnableSleepOnExit:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:577    .text.HAL_PWR_EnableSleepOnExit:0000000000000000 HAL_PWR_EnableSleepOnExit
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:594    .text.HAL_PWR_EnableSleepOnExit:000000000000000c $d
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:599    .text.HAL_PWR_DisableSleepOnExit:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:605    .text.HAL_PWR_DisableSleepOnExit:0000000000000000 HAL_PWR_DisableSleepOnExit
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:622    .text.HAL_PWR_DisableSleepOnExit:000000000000000c $d
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:627    .text.HAL_PWR_EnableSEVOnPend:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:633    .text.HAL_PWR_EnableSEVOnPend:0000000000000000 HAL_PWR_EnableSEVOnPend
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:650    .text.HAL_PWR_EnableSEVOnPend:000000000000000c $d
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:655    .text.HAL_PWR_DisableSEVOnPend:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:661    .text.HAL_PWR_DisableSEVOnPend:0000000000000000 HAL_PWR_DisableSEVOnPend
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:678    .text.HAL_PWR_DisableSEVOnPend:000000000000000c $d
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:683    .text.HAL_PWR_PVDCallback:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:689    .text.HAL_PWR_PVDCallback:0000000000000000 HAL_PWR_PVDCallback
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:702    .text.HAL_PWR_PVD_IRQHandler:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:708    .text.HAL_PWR_PVD_IRQHandler:0000000000000000 HAL_PWR_PVD_IRQHandler
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:756    .text.HAL_PWR_PVD_IRQHandler:0000000000000024 $d
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:761    .text.HAL_PWR_ConfigAttributes:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:767    .text.HAL_PWR_ConfigAttributes:0000000000000000 HAL_PWR_ConfigAttributes
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:807    .text.HAL_PWR_ConfigAttributes:0000000000000028 $d
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:812    .text.HAL_PWR_GetConfigAttributes:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:818    .text.HAL_PWR_GetConfigAttributes:0000000000000000 HAL_PWR_GetConfigAttributes
+C:\Users\soran\AppData\Local\Temp\ccaCczsk.s:865    .text.HAL_PWR_GetConfigAttributes:0000000000000020 $d
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccaCczsk.s 			page 53
 
 
 

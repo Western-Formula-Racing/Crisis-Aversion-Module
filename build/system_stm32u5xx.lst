@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 1
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s 			page 1
 
 
    1              		.cpu cortex-m33
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 1
   27:Src/system_stm32u5xx.c ****   *-----------------------------------------------------------------------------
   28:Src/system_stm32u5xx.c ****   *        System Clock source                     | MSI
   29:Src/system_stm32u5xx.c ****   *-----------------------------------------------------------------------------
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 2
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s 			page 2
 
 
   30:Src/system_stm32u5xx.c ****   *        SYSCLK(Hz)                              | 4000000
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 1
   84:Src/system_stm32u5xx.c ****   * This software is licensed under terms that can be found in the LICENSE file
   85:Src/system_stm32u5xx.c ****   * in the root directory of this software component.
   86:Src/system_stm32u5xx.c ****   * If no LICENSE file comes with this software, it is provided AS-IS.
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 3
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s 			page 3
 
 
   87:Src/system_stm32u5xx.c ****   *
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 1
  141:Src/system_stm32u5xx.c **** 
  142:Src/system_stm32u5xx.c **** /**
  143:Src/system_stm32u5xx.c ****   * @}
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 4
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s 			page 4
 
 
  144:Src/system_stm32u5xx.c ****   */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 1
   33              		@ frame_needed = 0, uses_anonymous_args = 0
   34              		@ link register save eliminated.
  195:Src/system_stm32u5xx.c ****   /* FPU settings ------------------------------------------------------------*/
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 5
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s 			page 5
 
 
  196:Src/system_stm32u5xx.c ****   #if (__FPU_PRESENT == 1) && (__FPU_USED == 1)
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 1
   68              		.loc 1 216 6 is_stmt 0 view .LVU18
   69 002a 1968     		ldr	r1, [r3]
   70              		.loc 1 216 11 view .LVU19
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 6
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s 			page 6
 
 
   71 002c 21F48021 		bic	r1, r1, #262144
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 1
  245:Src/system_stm32u5xx.c ****   *           - If SYSCLK source is HSI, SystemCoreClock will contain the HSI_VALUE(**)
  246:Src/system_stm32u5xx.c ****   *
  247:Src/system_stm32u5xx.c ****   *           - If SYSCLK source is HSE, SystemCoreClock will contain the HSE_VALUE(***)
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 7
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s 			page 7
 
 
  248:Src/system_stm32u5xx.c ****   *
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 1
  120              		.loc 1 280 14 view .LVU33
  121 0012 C3F30333 		ubfx	r3, r3, #12, #4
  122              	.LVL0:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 8
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s 			page 8
 
 
  123              	.L6:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 1
  162              	.LVL3:
  285:Src/system_stm32u5xx.c ****   }
  163              		.loc 1 285 53 view .LVU43
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 9
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s 			page 9
 
 
  164 0040 E9E7     		b	.L6
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 1
  337:Src/system_stm32u5xx.c ****       break;
  338:Src/system_stm32u5xx.c **** 
  339:Src/system_stm32u5xx.c ****   default:
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 10
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s 			page 10
 
 
  340:Src/system_stm32u5xx.c ****     SystemCoreClock = msirange;
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 1
  213 006a 334A     		ldr	r2, .L22+16
  214              	.LVL10:
  303:Src/system_stm32u5xx.c ****     break;
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 11
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s 			page 11
 
 
  215              		.loc 1 303 21 view .LVU60
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 1
  315:Src/system_stm32u5xx.c ****       {
  253              		.loc 1 315 7 is_stmt 1 view .LVU77
  254 0098 0228     		cmp	r0, #2
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 12
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s 			page 12
 
 
  255 009a 0DD0     		beq	.L14
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 1
  296              	.L21:
  327:Src/system_stm32u5xx.c **** 
  297              		.loc 1 327 9 is_stmt 0 view .LVU91
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 13
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s 			page 13
 
 
  298 00dc DFED186A 		vldr.32	s13, .L22+24
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 1
  336              		.loc 1 336 36 view .LVU107
  337 0114 17EE903A 		vmov	r3, s15	@ int
  336:Src/system_stm32u5xx.c ****       break;
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 14
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s 			page 14
 
 
  338              		.loc 1 336 25 view .LVU108
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 1
  389 0038 F0490200 		.word	150000
  390 003c A0860100 		.word	100000
  391              		.global	APBPrescTable
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 15
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s 			page 15
 
 
  392              		.section	.rodata.APBPrescTable,"a"
@@ -868,27 +868,27 @@ ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 1
  418              		.file 5 "Drivers/CMSIS/Device/ST/STM32U5xx/Include/system_stm32u5xx.h"
  419              		.file 6 "Drivers/CMSIS/Device/ST/STM32U5xx/Include/stm32u575xx.h"
  420              		.file 7 "c:\\users\\soran\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
-ARM GAS  C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s 			page 16
+ARM GAS  C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 system_stm32u5xx.c
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:22     .text.SystemInit:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:28     .text.SystemInit:0000000000000000 SystemInit
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:85     .text.SystemInit:000000000000003c $d
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:91     .text.SystemCoreClockUpdate:0000000000000000 $t
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:97     .text.SystemCoreClockUpdate:0000000000000000 SystemCoreClockUpdate
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:140    .text.SystemCoreClockUpdate:000000000000002c $d
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:358    .text.SystemCoreClockUpdate:0000000000000128 $d
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:374    .rodata.MSIRangeTable:0000000000000000 MSIRangeTable
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:411    .data.SystemCoreClock:0000000000000000 SystemCoreClock
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:403    .rodata.AHBPrescTable:0000000000000000 AHBPrescTable
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:371    .rodata.MSIRangeTable:0000000000000000 $d
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:396    .rodata.APBPrescTable:0000000000000000 APBPrescTable
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:393    .rodata.APBPrescTable:0000000000000000 $d
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:400    .rodata.AHBPrescTable:0000000000000000 $d
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:408    .data.SystemCoreClock:0000000000000000 $d
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:154    .text.SystemCoreClockUpdate:0000000000000039 $d
-C:\Users\soran\AppData\Local\Temp\ccE7kcFS.s:154    .text.SystemCoreClockUpdate:000000000000003a $t
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:22     .text.SystemInit:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:28     .text.SystemInit:0000000000000000 SystemInit
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:85     .text.SystemInit:000000000000003c $d
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:91     .text.SystemCoreClockUpdate:0000000000000000 $t
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:97     .text.SystemCoreClockUpdate:0000000000000000 SystemCoreClockUpdate
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:140    .text.SystemCoreClockUpdate:000000000000002c $d
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:358    .text.SystemCoreClockUpdate:0000000000000128 $d
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:374    .rodata.MSIRangeTable:0000000000000000 MSIRangeTable
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:411    .data.SystemCoreClock:0000000000000000 SystemCoreClock
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:403    .rodata.AHBPrescTable:0000000000000000 AHBPrescTable
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:371    .rodata.MSIRangeTable:0000000000000000 $d
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:396    .rodata.APBPrescTable:0000000000000000 APBPrescTable
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:393    .rodata.APBPrescTable:0000000000000000 $d
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:400    .rodata.AHBPrescTable:0000000000000000 $d
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:408    .data.SystemCoreClock:0000000000000000 $d
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:154    .text.SystemCoreClockUpdate:0000000000000039 $d
+C:\Users\soran\AppData\Local\Temp\ccrsjWlS.s:154    .text.SystemCoreClockUpdate:000000000000003a $t
 
 NO UNDEFINED SYMBOLS
