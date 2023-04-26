@@ -13,7 +13,7 @@
 ######################################
 # target
 ######################################
-TARGET = ADC_DMA_Transfer
+TARGET = Crisis-Aversion-Module
 
 
 ######################################
@@ -44,6 +44,7 @@ Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c \
 Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c \
 Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c \
 Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.c \
+Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_fdcan.c \
 Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.c \
 Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c \
 Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c \
@@ -69,7 +70,8 @@ CPP_SOURCES = \
 
 # ASM sources
 ASM_SOURCES =  \
-STM32CubeIDE/Application/Startup/startup_stm32u575zitxq.s
+STM32CubeIDE/Application/Startup/startup_stm32u575zitxq.s \
+startup_stm32u575xx.s
 
 
 
@@ -135,6 +137,7 @@ AS_INCLUDES = \
 
 # C includes
 C_INCLUDES =  \
+-I../Drivers/BSP/STM32U5xx_Nucleo \
 -IDrivers/BSP/STM32U5xx_Nucleo \
 -IDrivers/CMSIS/Device/ST/STM32U5xx/Include \
 -IDrivers/CMSIS/Include \
@@ -177,7 +180,7 @@ LIBDIR = \
 
 
 # Additional LD Flags from config file
-ADDITIONALLDFLAGS = -specs=nosys.specs 
+ADDITIONALLDFLAGS = -specs=nano.specs -specs=nosys.specs 
 
 LDFLAGS = $(MCU) $(ADDITIONALLDFLAGS) -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
 

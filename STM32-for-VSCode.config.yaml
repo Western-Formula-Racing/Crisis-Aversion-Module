@@ -6,7 +6,7 @@
 # - entry_2
 
 # The project name
-target: ADC_DMA_Transfer
+target: Crisis-Aversion-Module
 # Can be C or C++
 language: C
 
@@ -123,6 +123,7 @@ sourceFiles:
   - Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c
   - Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c
   - Drivers/BSP/STM32U5xx_Nucleo/stm32u5xx_nucleo.c
+  - Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_fdcan.c
   - Src/**
   - Core/Src/**
   - Core/Lib/**
