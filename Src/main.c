@@ -40,7 +40,7 @@
 
 /* Private variables ---------------------------------------------------------*/
 ADC_HandleTypeDef hadc1;
-UART_HandleTypeDef huart1;
+
 
 DMA_HandleTypeDef handle_GPDMA1_Channel10;
 
