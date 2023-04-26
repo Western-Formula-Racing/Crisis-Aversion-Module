@@ -33,11 +33,6 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>ADC_DMA_Transfer.ioc</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/ADC_DMA_Transfer.ioc</locationURI>
-		</link>
-		<link>
 			<name>Doc/README.md</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/README.md</locationURI>
