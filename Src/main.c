@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdio.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -45,6 +45,8 @@ FDCAN_HandleTypeDef hfdcan1;
 
 DMA_HandleTypeDef handle_GPDMA1_Channel10;
 
+UART_HandleTypeDef huart1;
+
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -57,15 +59,33 @@ static void MX_GPDMA1_Init(void);
 static void MX_ICACHE_Init(void);
 static void MX_ADC1_Init(void);
 static void MX_FDCAN1_Init(void);
+static void MX_USART1_UART_Init(void);
 /* USER CODE BEGIN PFP */
 int setMux(int channel);
+
+#ifdef __GNUC__
+#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+#else
+#define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+#endif
+
+PUTCHAR_PROTOTYPE
+{
+  HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, HAL_MAX_DELAY);
+  return ch;
+}
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 #define ADC_CONVERTED_DATA_BUFFER_SIZE ((uint32_t)12) /* Size of array aADCxConvertedData[] */
-/* Variable containing ADC conversions data */
-uint32_t aADCxConvertedData[ADC_CONVERTED_DATA_BUFFER_SIZE];
+uint32_t aADCxConvertedData[ADC_CONVERTED_DATA_BUFFER_SIZE];// Variable containing ADC conversions data 
+uint8_t channelList[] = {2, 4, 5, 6, 7}; // mux channel list for sensors modules 1 - 5
+uint32_t convertedTemps [5][5]; // 5 modules, 5 temperatures per module. 
+FDCAN_TxHeaderTypeDef TxHeader;
+uint8_t minMaxTemps [8];
+
 /* USER CODE END 0 */
 
 /**
@@ -108,6 +128,7 @@ int main(void)
   MX_ICACHE_Init();
   MX_ADC1_Init();
   MX_FDCAN1_Init();
+  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
   MX_ADCQueue_Config();
   __HAL_LINKDMA(&hadc1, DMA_Handle, handle_GPDMA1_Channel10);
@@ -134,7 +155,7 @@ int main(void)
       setMux(i);
       HAL_Delay(1000);
 
-      printf("Channel %d raw: %d", i, aADCxConvertedData[i - 1]);
+      printf("Channel %d raw: %d", i, (int)aADCxConvertedData[i - 1]);
     }
 
     /* USER CODE END WHILE */
@@ -446,6 +467,54 @@ static void MX_ICACHE_Init(void)
   /* USER CODE BEGIN ICACHE_Init 2 */
 
   /* USER CODE END ICACHE_Init 2 */
+
+}
+
+/**
+  * @brief USART1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART1_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART1_Init 0 */
+
+  /* USER CODE END USART1_Init 0 */
+
+  /* USER CODE BEGIN USART1_Init 1 */
+
+  /* USER CODE END USART1_Init 1 */
+  huart1.Instance = USART1;
+  huart1.Init.BaudRate = 115200;
+  huart1.Init.WordLength = UART_WORDLENGTH_8B;
+  huart1.Init.StopBits = UART_STOPBITS_1;
+  huart1.Init.Parity = UART_PARITY_NONE;
+  huart1.Init.Mode = UART_MODE_TX_RX;
+  huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+  huart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+  huart1.Init.ClockPrescaler = UART_PRESCALER_DIV1;
+  huart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+  if (HAL_UART_Init(&huart1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_UARTEx_SetTxFifoThreshold(&huart1, UART_TXFIFO_THRESHOLD_1_8) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_UARTEx_SetRxFifoThreshold(&huart1, UART_RXFIFO_THRESHOLD_1_8) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_UARTEx_DisableFifoMode(&huart1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART1_Init 2 */
+
+  /* USER CODE END USART1_Init 2 */
 
 }
 
