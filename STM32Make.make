@@ -70,8 +70,7 @@ CPP_SOURCES = \
 
 # ASM sources
 ASM_SOURCES =  \
-STM32CubeIDE/Application/Startup/startup_stm32u575zitxq.s \
-startup_stm32u575xx.s
+STM32CubeIDE/Application/Startup/startup_stm32u575zitxq.s
 
 
 
@@ -137,7 +136,6 @@ AS_INCLUDES = \
 
 # C includes
 C_INCLUDES =  \
--I../Drivers/BSP/STM32U5xx_Nucleo \
 -IDrivers/BSP/STM32U5xx_Nucleo \
 -IDrivers/CMSIS/Device/ST/STM32U5xx/Include \
 -IDrivers/CMSIS/Include \
@@ -180,7 +178,7 @@ LIBDIR = \
 
 
 # Additional LD Flags from config file
-ADDITIONALLDFLAGS = -specs=nano.specs -specs=nosys.specs 
+ADDITIONALLDFLAGS = -specs=nosys.specs 
 
 LDFLAGS = $(MCU) $(ADDITIONALLDFLAGS) -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
 

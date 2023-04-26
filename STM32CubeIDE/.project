@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>ADC_DMA_Transfer</name>
+	<name>Crisis-Aversion-Module</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -32,6 +32,11 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
 	<linkedResources>
+		<link>
+			<name>Crisis-Aversion-Module.ioc</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Crisis-Aversion-Module.ioc</locationURI>
+		</link>
 		<link>
 			<name>Doc/README.md</name>
 			<type>1</type>
