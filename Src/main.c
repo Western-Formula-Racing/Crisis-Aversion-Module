@@ -162,7 +162,7 @@ RetargetInit(&huart1);
     for (int i = 0; i <= 4; i++)
     {
       setMux(channelList[i]);
-      HAL_Delay(200);
+      HAL_Delay(20);
       // we skip 0 because that's the non-functional sensor
       convertedTemps[i][1] = ((ADC1RawData[1] / 16384.0f) * 3.3) * 100; // temperature conversion formula, convert to voltage then from voltage to temp
       convertedTemps[i][2] = ((ADC1RawData[2] / 16384.0f) * 3.3) * 100;
