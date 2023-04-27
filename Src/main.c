@@ -182,9 +182,9 @@ RetargetInit(&huart1);
     int32_t minTemp = 1000;
     int8_t highestID = 0;
     int8_t lowestID = 0;
-    for (int i = 0; i <= 5; i++)
+    for (int i = 0; i <= 4; i++)
     {
-      for (int j = 0; j <= 5; j++)
+      for (int j = 1; j <= 5; j++)
       {
         int32_t temp = convertedTemps[i][j];
         if (temp > maxTemp)
