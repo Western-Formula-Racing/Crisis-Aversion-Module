@@ -72,7 +72,7 @@ int setMux(int channel);
 /* USER CODE BEGIN 0 */
 #define ADC_CONVERTED_DATA_BUFFER_SIZE ((uint32_t)12) /* Size of array aADCxConvertedData[] */
 uint32_t ADC1RawData[ADC_CONVERTED_DATA_BUFFER_SIZE]; // Variable containing ADC conversions data
-uint8_t channelList[] = {2, 4, 5, 6, 7};              // mux channel list for sensors modules 1 - 5
+uint8_t channelList[] = {7, 5, 6, 4, 2};              // mux channel list for sensors modules 1 - 5
 uint32_t convertedTemps[5][6];                        // 5 modules, 5 temperatures per module (one's broken).
 FDCAN_TxHeaderTypeDef TxHeader;
 int8_t BMSBroadcastMsg[8];
@@ -157,14 +157,12 @@ RetargetInit(&huart1);
   HAL_ADC_Start_DMA(&hadc1, ADC1RawData, 6);
   while (1)
   {
-    printf("test\n");
-     printf("test\n");
-      printf("test\n");
-    int8_t avgTemp = 0;
+
+    int32_t avgTemp = 0;
     for (int i = 0; i <= 4; i++)
     {
       setMux(channelList[i]);
-      HAL_Delay(500);
+      HAL_Delay(200);
       // we skip 0 because that's the non-functional sensor
       convertedTemps[i][1] = ((ADC1RawData[1] / 16384.0f) * 3.3) * 100; // temperature conversion formula, convert to voltage then from voltage to temp
       convertedTemps[i][2] = ((ADC1RawData[2] / 16384.0f) * 3.3) * 100;
@@ -172,19 +170,23 @@ RetargetInit(&huart1);
       convertedTemps[i][4] = ((ADC1RawData[4] / 16384.0f) * 3.3) * 100;
       convertedTemps[i][5] = ((ADC1RawData[5] / 16384.0f) * 3.3) * 100;
       avgTemp += convertedTemps[i][1] + convertedTemps[i][2] + convertedTemps[i][3] + convertedTemps[i][4] + convertedTemps[i][5];
+
+      printf("Module %d: %d %d %d %d %d ", i, convertedTemps[i][1],convertedTemps[i][2],convertedTemps[i][3],convertedTemps[i][4],convertedTemps[i][5]);
+
     }
     avgTemp = avgTemp / 25; // 25 total temp sensors
+    printf("average temp: %d\n", avgTemp);
 
     /* Find Max and Min temp*/
-    int8_t maxTemp = 0;
-    int8_t minTemp = 1000;
+    int32_t maxTemp = 0;
+    int32_t minTemp = 1000;
     int8_t highestID = 0;
     int8_t lowestID = 0;
     for (int i = 0; i <= 5; i++)
     {
       for (int j = 0; j <= 5; j++)
       {
-        int8_t temp = (int8_t)convertedTemps[i][j];
+        int32_t temp = convertedTemps[i][j];
         if (temp > maxTemp)
         {
           maxTemp = temp;
@@ -197,6 +199,7 @@ RetargetInit(&huart1);
         }
       }
     }
+    printf("\nmax: %d min: %d \n", maxTemp, minTemp);
 
     /*CAN Message - protocol can be found at https://www.orionbms.com/downloads/misc/thermistor_module_canbus.pdf */
     BMSBroadcastMsg[0] = 1; // pretending it's just 1 thermistor module
@@ -646,7 +649,7 @@ int setMux(int channel)
     // selection out of bounds
     return 0;
   }
-  printf("Channel %d selected\n", channel);
+  //printf("Channel %d selected\n", channel);
   channel -= 0; // convert from counting from 1 to counting from 0
   HAL_GPIO_WritePin(S0_GPIO_Port, S0_Pin, (channel & (1 << 0)) >> 0);
   HAL_GPIO_WritePin(S1_GPIO_Port, S1_Pin, (channel & (1 << 1)) >> 1);
