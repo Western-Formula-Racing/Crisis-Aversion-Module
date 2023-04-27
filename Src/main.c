@@ -162,18 +162,20 @@ int main(void)
   HAL_ADC_Start_DMA(&hadc1, ADC1RawData, 6);
   while (1)
   {
-
+    printf("test\n");
+     printf("test\n");
+      printf("test\n");
     int8_t avgTemp = 0;
-    for (int i = 1; i <= 5; i++)
+    for (int i = 0; i <= 4; i++)
     {
       setMux(channelList[i]);
       HAL_Delay(500);
       // we skip 0 because that's the non-functional sensor
-      convertedTemps[i][1] = (uint32_t)((ADC1RawData[0] / 16384) * 3.3f) * 100; // temperature conversion formula, convert to voltage then from voltage to temp
-      convertedTemps[i][2] = (uint32_t)((ADC1RawData[0] / 16384) * 3.3f) * 100;
-      convertedTemps[i][3] = (uint32_t)((ADC1RawData[0] / 16384) * 3.3f) * 100;
-      convertedTemps[i][4] = (uint32_t)((ADC1RawData[0] / 16384) * 3.3f) * 100;
-      convertedTemps[i][5] = (uint32_t)((ADC1RawData[0] / 16384) * 3.3f) * 100;
+      convertedTemps[i][1] = (uint32_t)((ADC1RawData[1] / 16384) * 3.3) * 100; // temperature conversion formula, convert to voltage then from voltage to temp
+      convertedTemps[i][2] = (uint32_t)((ADC1RawData[2] / 16384) * 3.3) * 100;
+      convertedTemps[i][3] = (uint32_t)((ADC1RawData[3] / 16384) * 3.3) * 100;
+      convertedTemps[i][4] = (uint32_t)((ADC1RawData[4] / 16384) * 3.3) * 100;
+      convertedTemps[i][5] = (uint32_t)((ADC1RawData[5] / 16384) * 3.3) * 100;
       avgTemp += convertedTemps[i][1] + convertedTemps[i][2] + convertedTemps[i][3] + convertedTemps[i][4] + convertedTemps[i][5];
     }
     avgTemp = avgTemp / 25; // 25 total temp sensors
@@ -643,14 +645,14 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc)
 
 int setMux(int channel)
 {
-  if (channel > 6)
+  if (channel > 8)
   {
     printf("channel %d out of bounds \n", channel);
     // selection out of bounds
     return 0;
   }
   printf("Channel %d selected\n", channel);
-  channel -= 1; // convert from counting from 1 to counting from 0
+  channel -= 0; // convert from counting from 1 to counting from 0
   HAL_GPIO_WritePin(S0_GPIO_Port, S0_Pin, (channel & (1 << 0)) >> 0);
   HAL_GPIO_WritePin(S1_GPIO_Port, S1_Pin, (channel & (1 << 1)) >> 1);
   HAL_GPIO_WritePin(S2_GPIO_Port, S2_Pin, (channel & (1 << 2)) >> 2);
