@@ -22,6 +22,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
+#include "retarget.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -63,17 +64,7 @@ static void MX_USART1_UART_Init(void);
 /* USER CODE BEGIN PFP */
 int setMux(int channel);
 
-#ifdef __GNUC__
-#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
-#else
-#define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
-#endif
 
-PUTCHAR_PROTOTYPE
-{
-  HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, HAL_MAX_DELAY);
-  return ch;
-}
 
 /* USER CODE END PFP */
 
@@ -82,7 +73,7 @@ PUTCHAR_PROTOTYPE
 #define ADC_CONVERTED_DATA_BUFFER_SIZE ((uint32_t)12) /* Size of array aADCxConvertedData[] */
 uint32_t ADC1RawData[ADC_CONVERTED_DATA_BUFFER_SIZE]; // Variable containing ADC conversions data
 uint8_t channelList[] = {2, 4, 5, 6, 7};              // mux channel list for sensors modules 1 - 5
-uint32_t convertedTemps[5][5];                        // 5 modules, 5 temperatures per module (one's broken).
+uint32_t convertedTemps[5][6];                        // 5 modules, 5 temperatures per module (one's broken).
 FDCAN_TxHeaderTypeDef TxHeader;
 int8_t BMSBroadcastMsg[8];
 
@@ -130,6 +121,10 @@ int main(void)
   MX_FDCAN1_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
+
+RetargetInit(&huart1);
+
+
   MX_ADCQueue_Config();
   __HAL_LINKDMA(&hadc1, DMA_Handle, handle_GPDMA1_Channel10);
   if (HAL_DMAEx_List_LinkQ(&handle_GPDMA1_Channel10, &ADCQueue) != HAL_OK)
@@ -171,11 +166,11 @@ int main(void)
       setMux(channelList[i]);
       HAL_Delay(500);
       // we skip 0 because that's the non-functional sensor
-      convertedTemps[i][1] = (uint32_t)((ADC1RawData[1] / 16384) * 3.3) * 100; // temperature conversion formula, convert to voltage then from voltage to temp
-      convertedTemps[i][2] = (uint32_t)((ADC1RawData[2] / 16384) * 3.3) * 100;
-      convertedTemps[i][3] = (uint32_t)((ADC1RawData[3] / 16384) * 3.3) * 100;
-      convertedTemps[i][4] = (uint32_t)((ADC1RawData[4] / 16384) * 3.3) * 100;
-      convertedTemps[i][5] = (uint32_t)((ADC1RawData[5] / 16384) * 3.3) * 100;
+      convertedTemps[i][1] = ((ADC1RawData[1] / 16384.0f) * 3.3) * 100; // temperature conversion formula, convert to voltage then from voltage to temp
+      convertedTemps[i][2] = ((ADC1RawData[2] / 16384.0f) * 3.3) * 100;
+      convertedTemps[i][3] = ((ADC1RawData[3] / 16384.0f) * 3.3) * 100;
+      convertedTemps[i][4] = ((ADC1RawData[4] / 16384.0f) * 3.3) * 100;
+      convertedTemps[i][5] = ((ADC1RawData[5] / 16384.0f) * 3.3) * 100;
       avgTemp += convertedTemps[i][1] + convertedTemps[i][2] + convertedTemps[i][3] + convertedTemps[i][4] + convertedTemps[i][5];
     }
     avgTemp = avgTemp / 25; // 25 total temp sensors

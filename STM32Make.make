@@ -60,6 +60,7 @@ Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c \
 Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c \
 Src/linked_list.c \
 Src/main.c \
+Src/retarget.c \
 Src/stm32u5xx_hal_msp.c \
 Src/stm32u5xx_it.c \
 Src/system_stm32u5xx.c
