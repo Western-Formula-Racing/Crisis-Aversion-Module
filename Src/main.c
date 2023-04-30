@@ -197,9 +197,15 @@ RetargetInit(&huart1);
           minTemp = temp;
           lowestID = (5 * i) + j;
         }
+        // ** REMOVE THIS TO DISABLE OPEN CIRCUIT CHECK **
+        if (temp <= 1){ // if any of the temp sensors disconnects, report maxed out temp to error out the system
+          maxTemp = 100;
+        }
       }
     }
     printf("\nmax: %d min: %d \n", maxTemp, minTemp);
+
+
 
     /*CAN Message - protocol can be found at https://www.orionbms.com/downloads/misc/thermistor_module_canbus.pdf */
     BMSBroadcastMsg[0] = 0; // pretending it's just 1 thermistor module
@@ -210,11 +216,6 @@ RetargetInit(&huart1);
     BMSBroadcastMsg[5] = highestID;
     BMSBroadcastMsg[6] = lowestID;
     /*checksum*/
-    for (int i = 0; i <= 6; i++)
-    {
-      BMSBroadcastMsg[7] += BMSBroadcastMsg[i];
-    }
-    BMSBroadcastMsg[7] += 0x39 + 0x08;
     BMSBroadcastMsg[7]= BMSBroadcastMsg[0] + BMSBroadcastMsg[1] + BMSBroadcastMsg[2] + BMSBroadcastMsg[3] + BMSBroadcastMsg[4] + BMSBroadcastMsg[5] + BMSBroadcastMsg[6] + 57 + 8; 
     HAL_FDCAN_AddMessageToTxFifoQ(&hfdcan1, &TxHeader, BMSBroadcastMsg);
     /* USER CODE END WHILE */
