@@ -202,7 +202,7 @@ RetargetInit(&huart1);
     printf("\nmax: %d min: %d \n", maxTemp, minTemp);
 
     /*CAN Message - protocol can be found at https://www.orionbms.com/downloads/misc/thermistor_module_canbus.pdf */
-    BMSBroadcastMsg[0] = 1; // pretending it's just 1 thermistor module
+    BMSBroadcastMsg[0] = 0; // pretending it's just 1 thermistor module
     BMSBroadcastMsg[1] = minTemp;
     BMSBroadcastMsg[2] = maxTemp;
     BMSBroadcastMsg[3] = avgTemp;
@@ -215,6 +215,7 @@ RetargetInit(&huart1);
       BMSBroadcastMsg[7] += BMSBroadcastMsg[i];
     }
     BMSBroadcastMsg[7] += 0x39 + 0x08;
+    BMSBroadcastMsg[7]= BMSBroadcastMsg[0] + BMSBroadcastMsg[1] + BMSBroadcastMsg[2] + BMSBroadcastMsg[3] + BMSBroadcastMsg[4] + BMSBroadcastMsg[5] + BMSBroadcastMsg[6] + 57 + 8; 
     HAL_FDCAN_AddMessageToTxFifoQ(&hfdcan1, &TxHeader, BMSBroadcastMsg);
     /* USER CODE END WHILE */
 
